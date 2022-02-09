@@ -1,0 +1,2 @@
+model_checkpoint_path: "/home/mitho/DemoChatBot2/DemoChatBot/project/default/test/component_5_EmbeddingIntentClassifier.ckpt"
+all_model_checkpoint_paths: "/home/mitho/DemoChatBot2/DemoChatBot/project/default/test/component_5_EmbeddingIntentClassifier.ckpt"

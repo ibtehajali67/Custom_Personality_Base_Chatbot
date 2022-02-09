@@ -1,0 +1,1639 @@
+{
+    "data": [
+        {
+            "text": "hi",
+            "intent": "greet",
+            "entities": []
+        },
+        {
+            "text": "hey",
+            "intent": "greet",
+            "entities": []
+        },
+        {
+            "text": "hello",
+            "intent": "greet",
+            "entities": []
+        },
+        {
+            "text": "what's up?",
+            "intent": "greet",
+            "entities": []
+        },
+        {
+            "text": "what are you doing?",
+            "intent": "greet",
+            "entities": []
+        },
+        {
+            "text": "What do you do?",
+            "intent": "greet",
+            "entities": []
+        },
+        {
+            "text": "how are you !!",
+            "intent": "ask_health",
+            "entities": []
+        },
+        {
+            "text": "how you doing?",
+            "intent": "ask_health",
+            "entities": []
+        },
+        {
+            "text": "how do you do?",
+            "intent": "ask_health",
+            "entities": []
+        },
+        {
+            "text": "how are you feeling?",
+            "intent": "ask_health",
+            "entities": []
+        },
+        {
+            "text": "Who Are You?",
+            "intent": "ask_gender",
+            "entities": []
+        },
+        {
+            "text": "your gender?",
+            "intent": "ask_gender",
+            "entities": []
+        },
+        {
+            "text": "what is your gender?",
+            "intent": "ask_gender",
+            "entities": []
+        },
+        {
+            "text": "are you male or female?",
+            "intent": "ask_gender",
+            "entities": []
+        },
+        {
+            "text": "are you a girl or a boy?",
+            "intent": "ask_gender",
+            "entities": []
+        },
+        {
+            "text": "are you man or woman?",
+            "intent": "ask_gender",
+            "entities": []
+        },
+        {
+            "text": "where you born?",
+            "intent": "ask_born_location",
+            "entities": []
+        },
+        {
+            "text": "what is your place of birth?",
+            "intent": "ask_born_location",
+            "entities": []
+        },
+        {
+            "text": "at what place you born?",
+            "intent": "ask_born_location",
+            "entities": []
+        },
+        {
+            "text": "what is the location of your birth?",
+            "intent": "ask_born_location",
+            "entities": []
+        },
+        {
+            "text": "what is your religion?",
+            "intent": "ask_religion",
+            "entities": []
+        },
+        {
+            "text": "What religious family do you belong to?",
+            "intent": "ask_religion",
+            "entities": []
+        },
+        {
+            "text": "What is your current place of worship called?",
+            "intent": "ask_religion",
+            "entities": []
+        },
+        {
+            "text": "what is your caste?",
+            "intent": "ask_caste",
+            "entities": []
+        },
+        {
+            "text": "what is your family name?",
+            "intent": "ask_caste",
+            "entities": []
+        },
+        {
+            "text": "where do u live?",
+            "intent": "ask_location",
+            "entities": []
+        },
+        {
+            "text": "what is your area of living?",
+            "intent": "ask_location",
+            "entities": []
+        },
+        {
+            "text": "at what location do you live?",
+            "intent": "ask_location",
+            "entities": []
+        },
+        {
+            "text": "where do you reside?",
+            "intent": "ask_location",
+            "entities": []
+        },
+        {
+            "text": "where is  your residence?",
+            "intent": "ask_location",
+            "entities": []
+        },
+        {
+            "text": "what is the area of your residence?",
+            "intent": "ask_location",
+            "entities": []
+        },
+        {
+            "text": "who is your mother?",
+            "intent": "ask_mother_name",
+            "entities": []
+        },
+        {
+            "text": "what is your mother name?",
+            "intent": "ask_mother_name",
+            "entities": []
+        },
+        {
+            "text": "what do people call your mother?",
+            "intent": "ask_mother_name",
+            "entities": []
+        },
+        {
+            "text": "What is the name of your mother?",
+            "intent": "ask_mother_name",
+            "entities": []
+        },
+        {
+            "text": "who is your father?",
+            "intent": "ask_father_name",
+            "entities": []
+        },
+        {
+            "text": "what is your father name?",
+            "intent": "ask_father_name",
+            "entities": []
+        },
+        {
+            "text": "what do people call your father?",
+            "intent": "ask_father_name",
+            "entities": []
+        },
+        {
+            "text": "What is the name of your father?",
+            "intent": "ask_father_name",
+            "entities": []
+        },
+        {
+            "text": "who is your granfather?",
+            "intent": "ask_grandfather_name",
+            "entities": []
+        },
+        {
+            "text": "what is your granfather name?",
+            "intent": "ask_grandfather_name",
+            "entities": []
+        },
+        {
+            "text": "what do people call your granfather?",
+            "intent": "ask_grandfather_name",
+            "entities": []
+        },
+        {
+            "text": "What is the name of your grandfather?",
+            "intent": "ask_grandfather_name",
+            "entities": []
+        },
+        {
+            "text": "who is your grandmother?",
+            "intent": "ask_grandmother_name",
+            "entities": []
+        },
+        {
+            "text": "what is your grandmother name?",
+            "intent": "ask_grandmother_name",
+            "entities": []
+        },
+        {
+            "text": "what do people call your grandmother?",
+            "intent": "ask_grandmother_name",
+            "entities": []
+        },
+        {
+            "text": "What is the name of your grandmother?",
+            "intent": "ask_grandmother_name",
+            "entities": []
+        },
+        {
+            "text": "how many siblings you are?",
+            "intent": "ask_siblings",
+            "entities": []
+        },
+        {
+            "text": "number of siblings you have?",
+            "intent": "ask_siblings",
+            "entities": []
+        },
+        {
+            "text": "how many brothers and sisters do you have?",
+            "intent": "ask_siblings",
+            "entities": []
+        },
+        {
+            "text": "What is your name?",
+            "intent": "ask_name",
+            "entities": []
+        },
+        {
+            "text": "what does people call you?",
+            "intent": "ask_name",
+            "entities": []
+        },
+        {
+            "text": "what is your good name?",
+            "intent": "ask_name",
+            "entities": []
+        },
+        {
+            "text": "What is your age?",
+            "intent": "ask_age",
+            "entities": []
+        },
+        {
+            "text": "how old are you?",
+            "intent": "ask_age",
+            "entities": []
+        },
+        {
+            "text": "how long have you been in this world?",
+            "intent": "ask_age",
+            "entities": []
+        },
+        {
+            "text": "what is your date of birth?",
+            "intent": "ask_date_birth",
+            "entities": []
+        },
+        {
+            "text": "Tell me the date of your birthday?",
+            "intent": "ask_date_birth",
+            "entities": []
+        },
+        {
+            "text": "What is your height?",
+            "intent": "ask_height",
+            "entities": []
+        },
+        {
+            "text": "how long are you?",
+            "intent": "ask_height",
+            "entities": []
+        },
+        {
+            "text": "what is your weight?",
+            "intent": "ask_weight",
+            "entities": []
+        },
+        {
+            "text": "how much do you weigh?",
+            "intent": "ask_weight",
+            "entities": []
+        },
+        {
+            "text": "Which languages can you speak?",
+            "intent": "ask_language",
+            "entities": []
+        },
+        {
+            "text": "what are the languages can you speak?",
+            "intent": "ask_language",
+            "entities": []
+        },
+        {
+            "text": "at what languages you are good at speaking?",
+            "intent": "ask_language",
+            "entities": []
+        },
+        {
+            "text": "What is your hair color?",
+            "intent": "ask_hair_color",
+            "entities": []
+        },
+        {
+            "text": "what is the color of your hair?",
+            "intent": "ask_hair_color",
+            "entities": []
+        },
+        {
+            "text": "what is the shade of your hair?",
+            "intent": "ask_hair_color",
+            "entities": []
+        },
+        {
+            "text": "what is your hair shade?",
+            "intent": "ask_hair_color",
+            "entities": []
+        },
+        {
+            "text": "What is your eye color?",
+            "intent": "ask_eyes_color",
+            "entities": []
+        },
+        {
+            "text": "what is the color of your eye?",
+            "intent": "ask_eyes_color",
+            "entities": []
+        },
+        {
+            "text": "what is the shade of your eyes?",
+            "intent": "ask_eyes_color",
+            "entities": []
+        },
+        {
+            "text": "what is the color of your lens?",
+            "intent": "ask_eyes_color",
+            "entities": []
+        },
+        {
+            "text": "what is your lens color?",
+            "intent": "ask_eyes_color",
+            "entities": []
+        },
+        {
+            "text": "What is your eductaion?",
+            "intent": "ask_education",
+            "entities": []
+        },
+        {
+            "text": "how much educated are you?",
+            "intent": "ask_education",
+            "entities": []
+        },
+        {
+            "text": "what is the last degree you acheived?",
+            "intent": "ask_education",
+            "entities": []
+        },
+        {
+            "text": "What is your hobbies?",
+            "intent": "ask_hobbies",
+            "entities": []
+        },
+        {
+            "text": "what do you do in your spare time?",
+            "intent": "ask_hobbies",
+            "entities": []
+        },
+        {
+            "text": "How do you pass your time?",
+            "intent": "ask_hobbies",
+            "entities": []
+        },
+        {
+            "text": "How do you spend your leisure time?",
+            "intent": "ask_hobbies",
+            "entities": []
+        },
+        {
+            "text": "do u workout?",
+            "intent": "ask_workout",
+            "entities": []
+        },
+        {
+            "text": "do you go to gym?",
+            "intent": "ask_workout",
+            "entities": []
+        },
+        {
+            "text": "do you go for exercise?",
+            "intent": "ask_workout",
+            "entities": []
+        },
+        {
+            "text": "do you go for jogging?",
+            "intent": "ask_workout",
+            "entities": []
+        },
+        {
+            "text": "What is your favorite subject?",
+            "intent": "ask_subject",
+            "entities": []
+        },
+        {
+            "text": "which subject do you like the most?",
+            "intent": "ask_subject",
+            "entities": []
+        },
+        {
+            "text": "which subject do you love?",
+            "intent": "ask_subject",
+            "entities": []
+        },
+        {
+            "text": "what is your favorite course?",
+            "intent": "ask_subject",
+            "entities": []
+        },
+        {
+            "text": "In which course youre intrested the most?",
+            "intent": "ask_subject",
+            "entities": []
+        },
+        {
+            "text": "What is your favorite song?",
+            "intent": "ask_song",
+            "entities": []
+        },
+        {
+            "text": "which song do you like the most?",
+            "intent": "ask_song",
+            "entities": []
+        },
+        {
+            "text": "what is your most loving song?",
+            "intent": "ask_song",
+            "entities": []
+        },
+        {
+            "text": "who is your favorite child?",
+            "intent": "ask_fav_kid",
+            "entities": []
+        },
+        {
+            "text": "who is your favorite kid?",
+            "intent": "ask_fav_kid",
+            "entities": []
+        },
+        {
+            "text": "which kid do you like the most?",
+            "intent": "ask_fav_kid",
+            "entities": []
+        },
+        {
+            "text": "which child do you like the most?",
+            "intent": "ask_fav_kid",
+            "entities": []
+        },
+        {
+            "text": "your favorite joke?",
+            "intent": "ask_joke",
+            "entities": []
+        },
+        {
+            "text": "at what joke you laughed so hard?",
+            "intent": "ask_joke",
+            "entities": []
+        },
+        {
+            "text": "what is the funniest joke you ever heard?",
+            "intent": "ask_joke",
+            "entities": []
+        },
+        {
+            "text": "what joke you like the most?",
+            "intent": "ask_joke",
+            "entities": []
+        },
+        {
+            "text": "your favorite food?",
+            "intent": "ask_food",
+            "entities": []
+        },
+        {
+            "text": "what is your favorite dish?",
+            "intent": "ask_food",
+            "entities": []
+        },
+        {
+            "text": "what food you love the most?",
+            "intent": "ask_food",
+            "entities": []
+        },
+        {
+            "text": "what is your most liking dish?",
+            "intent": "ask_food",
+            "entities": []
+        },
+        {
+            "text": "what is your favorite sport?",
+            "intent": "ask_sports",
+            "entities": []
+        },
+        {
+            "text": "what is your favorite game?",
+            "intent": "ask_sports",
+            "entities": []
+        },
+        {
+            "text": "which game you play the most?",
+            "intent": "ask_sports",
+            "entities": []
+        },
+        {
+            "text": "which sport you like the most?",
+            "intent": "ask_sports",
+            "entities": []
+        },
+        {
+            "text": "your favorite color?",
+            "intent": "ask_color",
+            "entities": []
+        },
+        {
+            "text": "what is your most liking color?",
+            "intent": "ask_color",
+            "entities": []
+        },
+        {
+            "text": "your favorite shade?",
+            "intent": "ask_color",
+            "entities": []
+        },
+        {
+            "text": "what is your most liking shade?",
+            "intent": "ask_color",
+            "entities": []
+        },
+        {
+            "text": "your favorite outfit?",
+            "intent": "ask_dress",
+            "entities": []
+        },
+        {
+            "text": "what is your favorite dress?",
+            "intent": "ask_dress",
+            "entities": []
+        },
+        {
+            "text": "what kind of dress you like the most?",
+            "intent": "ask_dress",
+            "entities": []
+        },
+        {
+            "text": "what type of clothes you wear the most?",
+            "intent": "ask_dress",
+            "entities": []
+        },
+        {
+            "text": "your favorite movie?",
+            "intent": "ask_movie",
+            "entities": []
+        },
+        {
+            "text": "what kind of movies you like the most?",
+            "intent": "ask_movie",
+            "entities": []
+        },
+        {
+            "text": "what is your favorite movie genre?",
+            "intent": "ask_movie_genre",
+            "entities": []
+        },
+        {
+            "text": "What kind of movie genre do you like?",
+            "intent": "ask_movie_genre",
+            "entities": []
+        },
+        {
+            "text": "your favorite series?",
+            "intent": "ask_series",
+            "entities": []
+        },
+        {
+            "text": "what is your favorite season?",
+            "intent": "ask_series",
+            "entities": []
+        },
+        {
+            "text": "What is your favorite TV show?",
+            "intent": "ask_show",
+            "entities": []
+        },
+        {
+            "text": "Which TV program you like the most?",
+            "intent": "ask_show",
+            "entities": []
+        },
+        {
+            "text": "your favourite car?",
+            "intent": "ask_fav_car",
+            "entities": []
+        },
+        {
+            "text": "what kind of car you like the most?",
+            "intent": "ask_fav_car",
+            "entities": []
+        },
+        {
+            "text": "what type of vehicle you like the most?",
+            "intent": "ask_vehicle",
+            "entities": []
+        },
+        {
+            "text": "what is your favorite vehicle type?",
+            "intent": "ask_vehicle",
+            "entities": []
+        },
+        {
+            "text": "In what type of vehicle you love to travel?",
+            "intent": "ask_vehicle",
+            "entities": []
+        },
+        {
+            "text": "your favourite hero?",
+            "intent": "ask_fav_hero",
+            "entities": []
+        },
+        {
+            "text": "who is your favorite super hero?",
+            "intent": "ask_fav_hero",
+            "entities": []
+        },
+        {
+            "text": "who is your favorite movie character?",
+            "intent": "ask_movie_character",
+            "entities": []
+        },
+        {
+            "text": "Which movie character you like the most?",
+            "intent": "ask_movie_character",
+            "entities": []
+        },
+        {
+            "text": "your favourite actor?",
+            "intent": "ask_actor",
+            "entities": []
+        },
+        {
+            "text": "which actor do you like the most?",
+            "intent": "ask_actor",
+            "entities": []
+        },
+        {
+            "text": "your favourite actresses?",
+            "intent": "ask_actresses",
+            "entities": []
+        },
+        {
+            "text": "which actresses do you like the most?",
+            "intent": "ask_actresses",
+            "entities": []
+        },
+        {
+            "text": "your favourite country?",
+            "intent": "ask_country",
+            "entities": []
+        },
+        {
+            "text": "which country do you like the most?",
+            "intent": "ask_country",
+            "entities": []
+        },
+        {
+            "text": "what is your most liking place?",
+            "intent": "ask_location",
+            "entities": []
+        },
+        {
+            "text": "Which place you like the most?",
+            "intent": "ask_location",
+            "entities": []
+        },
+        {
+            "text": "your favourite sibling?",
+            "intent": "ask_fav_sibling",
+            "entities": []
+        },
+        {
+            "text": "with which sibling you are attached the most?",
+            "intent": "ask_fav_sibling",
+            "entities": []
+        },
+        {
+            "text": "your favourite city",
+            "intent": "ask_city",
+            "entities": []
+        },
+        {
+            "text": "which city you like the most?",
+            "intent": "ask_city",
+            "entities": []
+        },
+        {
+            "text": "your favorite entertaining story?",
+            "intent": "ask_story",
+            "entities": []
+        },
+        {
+            "text": "which story like to hear most?",
+            "intent": "ask_story",
+            "entities": []
+        },
+        {
+            "text": "Do you ever get hurt?",
+            "intent": "ask_hurt",
+            "entities": []
+        },
+        {
+            "text": "Do you ever get injured?",
+            "intent": "ask_hurt",
+            "entities": []
+        },
+        {
+            "text": "What is the month of your birthday?",
+            "intent": "ask_month_birth",
+            "entities": []
+        },
+        {
+            "text": "In what month you born?",
+            "intent": "ask_month_birth",
+            "entities": []
+        },
+        {
+            "text": "In what year you born?",
+            "intent": "ask_year_birth",
+            "entities": []
+        },
+        {
+            "text": "What is the year of your birthday?",
+            "intent": "ask_year_birth",
+            "entities": []
+        },
+        {
+            "text": "are you Married?",
+            "intent": "ask_status",
+            "entities": []
+        },
+        {
+            "text": "are you divorced?",
+            "intent": "ask_status",
+            "entities": []
+        },
+        {
+            "text": "are you single?",
+            "intent": "ask_status",
+            "entities": []
+        },
+        {
+            "text": "are you Dating someone?",
+            "intent": "ask_relation",
+            "entities": []
+        },
+        {
+            "text": "are you in relationship with someone?",
+            "intent": "ask_relation",
+            "entities": []
+        },
+        {
+            "text": "what is your marital status?",
+            "intent": "ask_marital_status",
+            "entities": []
+        },
+        {
+            "text": "What is your relationship status?",
+            "intent": "ask_marital_status",
+            "entities": []
+        },
+        {
+            "text": "how many boyfriends u have?",
+            "intent": "ask_bf",
+            "entities": []
+        },
+        {
+            "text": "With how many boys you're in relationship?",
+            "intent": "ask_bf",
+            "entities": []
+        },
+        {
+            "text": "who is your role model?",
+            "intent": "ask_inspiration",
+            "entities": []
+        },
+        {
+            "text": "who is your inspiration?",
+            "intent": "ask_inspiration",
+            "entities": []
+        },
+        {
+            "text": "Have kids?",
+            "intent": "ask_num_kids",
+            "entities": []
+        },
+        {
+            "text": "Do you have kids?",
+            "intent": "ask_num_kids",
+            "entities": []
+        },
+        {
+            "text": "how many kids u have? ",
+            "intent": "ask_num_kids",
+            "entities": []
+        },
+        {
+            "text": "how many childern u have? ",
+            "intent": "ask_num_kids",
+            "entities": []
+        },
+        {
+            "text": "what are the ages of your childern?",
+            "intent": "ask_age_kids",
+            "entities": []
+        },
+        {
+            "text": "In what ages your childern are?      ",
+            "intent": "ask_age_kids",
+            "entities": []
+        },
+        {
+            "text": "which product do you smoke?",
+            "intent": "ask_smoking",
+            "entities": []
+        },
+        {
+            "text": "name of smoking product?",
+            "intent": "ask_smoking",
+            "entities": []
+        },
+        {
+            "text": "which product do you drink?",
+            "intent": "ask_drinking",
+            "entities": []
+        },
+        {
+            "text": "name of drinking product?",
+            "intent": "ask_drinking",
+            "entities": []
+        },
+        {
+            "text": "do you like drinking wine?",
+            "intent": "ask_wine",
+            "entities": []
+        },
+        {
+            "text": "are you fond of drinking wine?",
+            "intent": "ask_wine",
+            "entities": []
+        },
+        {
+            "text": "do you like drinking beer?",
+            "intent": "ask_beer",
+            "entities": []
+        },
+        {
+            "text": "are you fond of drinking beer?",
+            "intent": "ask_beer",
+            "entities": []
+        },
+        {
+            "text": "do you take any addictive substance?",
+            "intent": "ask_addiction",
+            "entities": []
+        },
+        {
+            "text": "Do you take nicotine products?",
+            "intent": "ask_addiction",
+            "entities": []
+        },
+        {
+            "text": "do u know swimming?",
+            "intent": "ask_swim",
+            "entities": []
+        },
+        {
+            "text": "do you know how to swim?",
+            "intent": "ask_swim",
+            "entities": []
+        },
+        {
+            "text": "Who else lives in the household?",
+            "intent": "ask_family",
+            "entities": []
+        },
+        {
+            "text": "who lives with you?",
+            "intent": "ask_family",
+            "entities": []
+        },
+        {
+            "text": "How many persons live with you?",
+            "intent": "ask_family",
+            "entities": []
+        },
+        {
+            "text": "Do you live alone?",
+            "intent": "ask_live_alone",
+            "entities": []
+        },
+        {
+            "text": "Do you live with someone?",
+            "intent": "ask_live_alone",
+            "entities": []
+        },
+        {
+            "text": "what is your Passions?",
+            "intent": "ask_goal",
+            "entities": []
+        },
+        {
+            "text": "what is your ambition?",
+            "intent": "ask_goal",
+            "entities": []
+        },
+        {
+            "text": "what is your goal?",
+            "intent": "ask_goal",
+            "entities": []
+        },
+        {
+            "text": "what do you want to do in future?",
+            "intent": "ask_goal",
+            "entities": []
+        },
+        {
+            "text": "where do you see yourself in 10 years?",
+            "intent": "ask_goal",
+            "entities": []
+        },
+        {
+            "text": "what is your worst strategy?",
+            "intent": "ask_worst_strategy",
+            "entities": []
+        },
+        {
+            "text": "What's the horrible strategy you ever did?",
+            "intent": "ask_worst_strategy",
+            "entities": []
+        },
+        {
+            "text": "what is your weak point?",
+            "intent": "ask_weak_point",
+            "entities": []
+        },
+        {
+            "text": "What is your flaw point?",
+            "intent": "ask_weak_point",
+            "entities": []
+        },
+        {
+            "text": "what are your imperfections?",
+            "intent": "ask_weak_point",
+            "entities": []
+        },
+        {
+            "text": "what is your strong point?",
+            "intent": "ask_strong_point",
+            "entities": []
+        },
+        {
+            "text": "What are your abilities?",
+            "intent": "ask_strong_point",
+            "entities": []
+        },
+        {
+            "text": "Waht are your competences?",
+            "intent": "ask_strong_point",
+            "entities": []
+        },
+        {
+            "text": "your favorite quote?",
+            "intent": "ask_quote",
+            "entities": []
+        },
+        {
+            "text": "Which quote you like the most?",
+            "intent": "ask_quote",
+            "entities": []
+        },
+        {
+            "text": "what is your favorite drink?",
+            "intent": "ask_drink",
+            "entities": []
+        },
+        {
+            "text": "your favroite drink?",
+            "intent": "ask_drink",
+            "entities": []
+        },
+        {
+            "text": "which drink you like the most?",
+            "intent": "ask_drink",
+            "entities": []
+        },
+        {
+            "text": "Do you like coffee?",
+            "intent": "ask_coffee",
+            "entities": []
+        },
+        {
+            "text": "Do you like drinking coffee?",
+            "intent": "ask_coffee",
+            "entities": []
+        },
+        {
+            "text": "D you like tea?",
+            "intent": "ask_tea",
+            "entities": []
+        },
+        {
+            "text": "Do you like drinking tea?",
+            "intent": "ask_tea",
+            "entities": []
+        },
+        {
+            "text": "what is your favorite book?",
+            "intent": "ask_book",
+            "entities": []
+        },
+        {
+            "text": "What is your favortie novel?",
+            "intent": "ask_book",
+            "entities": []
+        },
+        {
+            "text": "What is your favortie fiction novel?",
+            "intent": "ask_fiction_book",
+            "entities": []
+        },
+        {
+            "text": "What kind of fiction novels do you read?",
+            "intent": "ask_fiction_book",
+            "entities": []
+        },
+        {
+            "text": "What is your favortie non-fiction novel?",
+            "intent": "ask_non-fiction_book",
+            "entities": []
+        },
+        {
+            "text": "What kind of non-fiction novels do you read?",
+            "intent": "ask_non-fiction_book",
+            "entities": []
+        },
+        {
+            "text": "Who created you?",
+            "intent": "ask_religion",
+            "entities": []
+        },
+        {
+            "text": "Who made you?",
+            "intent": "ask_religion",
+            "entities": []
+        },
+        {
+            "text": "Do you like haircut?",
+            "intent": "ask_like_haircut",
+            "entities": []
+        },
+        {
+            "text": "Do you want to have a haircut?",
+            "intent": "ask_like_haircut",
+            "entities": []
+        },
+        {
+            "text": "your favouite icecream?",
+            "intent": "ask_icecream",
+            "entities": []
+        },
+        {
+            "text": "Which icecream you like the most?",
+            "intent": "ask_icecream",
+            "entities": []
+        },
+        {
+            "text": "what is your favorite desert?",
+            "intent": "ask_desert",
+            "entities": []
+        },
+        {
+            "text": "What is your favorite sweet dish?",
+            "intent": "ask_desert",
+            "entities": []
+        },
+        {
+            "text": "how many husbands do you have?",
+            "intent": "ask_husbands",
+            "entities": []
+        },
+        {
+            "text": "How many man you have married to?",
+            "intent": "ask_husbands",
+            "entities": []
+        },
+        {
+            "text": "how many spouses do you have?",
+            "intent": "ask_spouse",
+            "entities": []
+        },
+        {
+            "text": "how many life partners do you have?",
+            "intent": "ask_spouse",
+            "entities": []
+        },
+        {
+            "text": "Who supervises you?",
+            "intent": "ask_lead",
+            "entities": []
+        },
+        {
+            "text": "You have a boss?",
+            "intent": "ask_lead",
+            "entities": []
+        },
+        {
+            "text": "Who's your leader?",
+            "intent": "ask_lead",
+            "entities": []
+        },
+        {
+            "text": "Who's your supervisor?",
+            "intent": "ask_lead",
+            "entities": []
+        },
+        {
+            "text": "Who's your manager?",
+            "intent": "ask_lead",
+            "entities": []
+        },
+        {
+            "text": "Who's your director?",
+            "intent": "ask_lead",
+            "entities": []
+        },
+        {
+            "text": "Who's your boss? ",
+            "intent": "ask_lead",
+            "entities": []
+        },
+        {
+            "text": "Who's in charge? ",
+            "intent": "ask_lead",
+            "entities": []
+        },
+        {
+            "text": "Who's in charge of you? ",
+            "intent": "ask_lead",
+            "entities": []
+        },
+        {
+            "text": "Whom do you serve?",
+            "intent": "ask_lead",
+            "entities": []
+        },
+        {
+            "text": "Who is your master?",
+            "intent": "ask_lead",
+            "entities": []
+        },
+        {
+            "text": "Are you in your teens?",
+            "intent": "ask_life_stage",
+            "entities": []
+        },
+        {
+            "text": "Are you an adult?",
+            "intent": "ask_life_stage",
+            "entities": []
+        },
+        {
+            "text": "Are you a teenager?",
+            "intent": "ask_life_stage",
+            "entities": []
+        },
+        {
+            "text": "Are you a senior?",
+            "intent": "ask_life_stage",
+            "entities": []
+        },
+        {
+            "text": "Are you a kid?",
+            "intent": "ask_life_stage",
+            "entities": []
+        },
+        {
+            "text": "Are you a grownup?",
+            "intent": "ask_life_stage",
+            "entities": []
+        },
+        {
+            "text": "Are you a baby?",
+            "intent": "ask_life_stage",
+            "entities": []
+        },
+        {
+            "text": "Are you young?",
+            "intent": "ask_life_stage",
+            "entities": []
+        },
+        {
+            "text": "are you retired?",
+            "intent": "ask_life_stage",
+            "entities": []
+        },
+        {
+            "text": "are you old?",
+            "intent": "ask_life_stage",
+            "entities": []
+        },
+        {
+            "text": "u wear glasses?",
+            "intent": "ask_wear_glasses",
+            "entities": []
+        },
+        {
+            "text": "do you wear spectacles?",
+            "intent": "ask_wear_glasses",
+            "entities": []
+        },
+        {
+            "text": "Can you breathe",
+            "intent": "ask_breathe",
+            "entities": []
+        },
+        {
+            "text": "Do you breathe?",
+            "intent": "ask_breathe",
+            "entities": []
+        },
+        {
+            "text": "Do you ever breathe",
+            "intent": "ask_breathe",
+            "entities": []
+        },
+        {
+            "text": "can you masticate?",
+            "intent": "ask_masticate",
+            "entities": []
+        },
+        {
+            "text": "do you masticate?",
+            "intent": "ask_masticate",
+            "entities": []
+        },
+        {
+            "text": "Don't you ever masticate?",
+            "intent": "ask_masticate",
+            "entities": []
+        },
+        {
+            "text": "Can you burp?",
+            "intent": "ask_burp",
+            "entities": []
+        },
+        {
+            "text": "Do you burp?",
+            "intent": "ask_burp",
+            "entities": []
+        },
+        {
+            "text": "Do you chew?",
+            "intent": "ask_chew",
+            "entities": []
+        },
+        {
+            "text": "Can you chew?",
+            "intent": "ask_chew",
+            "entities": []
+        },
+        {
+            "text": "Can you crawl?",
+            "intent": "ask_crawl",
+            "entities": []
+        },
+        {
+            "text": "Do you crawl?",
+            "intent": "ask_crawl",
+            "entities": []
+        },
+        {
+            "text": "Can you cry?",
+            "intent": "ask_cry",
+            "entities": []
+        },
+        {
+            "text": "Do you cry?",
+            "intent": "ask_cry",
+            "entities": []
+        },
+        {
+            "text": "Can you dream?",
+            "intent": "ask_dream",
+            "entities": []
+        },
+        {
+            "text": "Do you dream?",
+            "intent": "ask_dream",
+            "entities": []
+        },
+        {
+            "text": "Can you eat?",
+            "intent": "ask_eat",
+            "entities": []
+        },
+        {
+            "text": "Do you eat?",
+            "intent": "ask_eat",
+            "entities": []
+        },
+        {
+            "text": "Can you fart?",
+            "intent": "ask_fart",
+            "entities": []
+        },
+        {
+            "text": "Do you fart?",
+            "intent": "ask_fart",
+            "entities": []
+        },
+        {
+            "text": "Can you get tired?",
+            "intent": "ask_tired",
+            "entities": []
+        },
+        {
+            "text": "Do you get tired?",
+            "intent": "ask_tired",
+            "entities": []
+        },
+        {
+            "text": "Do you get tired after working day long?",
+            "intent": "ask_tired",
+            "entities": []
+        },
+        {
+            "text": "Can you yawn?",
+            "intent": "ask_yawn",
+            "entities": []
+        },
+        {
+            "text": "Do you yawn?",
+            "intent": "ask_yawn",
+            "entities": []
+        },
+        {
+            "text": "Do you ever yawn?",
+            "intent": "ask_yawn",
+            "entities": []
+        },
+        {
+            "text": "Do you pee?",
+            "intent": "ask_pee",
+            "entities": []
+        },
+        {
+            "text": "Do you ever pee?",
+            "intent": "ask_pee",
+            "entities": []
+        },
+        {
+            "text": "Can you pee?",
+            "intent": "ask_pee",
+            "entities": []
+        },
+        {
+            "text": "Can you poop?",
+            "intent": "ask_poop",
+            "entities": []
+        },
+        {
+            "text": "do you poop?",
+            "intent": "ask_poop",
+            "entities": []
+        },
+        {
+            "text": "Do you ever poop?",
+            "intent": "ask_poop",
+            "entities": []
+        },
+        {
+            "text": "Can you sneeze?",
+            "intent": "ask_sneeze",
+            "entities": []
+        },
+        {
+            "text": "Do you sneeze?",
+            "intent": "ask_sneeze",
+            "entities": []
+        },
+        {
+            "text": "Do you ever sneeze?",
+            "intent": "ask_sneeze",
+            "entities": []
+        },
+        {
+            "text": "Can you sweat?",
+            "intent": "ask_sweat",
+            "entities": []
+        },
+        {
+            "text": "Do you ever sweat?",
+            "intent": "ask_sweat",
+            "entities": []
+        },
+        {
+            "text": "Do you sweat?",
+            "intent": "ask_sweat",
+            "entities": []
+        },
+        {
+            "text": "Can you throw up?",
+            "intent": "ask_throw up",
+            "entities": []
+        },
+        {
+            "text": "Do you throw up?",
+            "intent": "ask_throw up",
+            "entities": []
+        },
+        {
+            "text": "Do you ever throw up?",
+            "intent": "ask_throw up",
+            "entities": []
+        },
+        {
+            "text": "Can you vomit?",
+            "intent": "ask_vomit",
+            "entities": []
+        },
+        {
+            "text": "Do you vomit?",
+            "intent": "ask_vomit",
+            "entities": []
+        },
+        {
+            "text": "Do you ever vomit?",
+            "intent": "ask_vomit",
+            "entities": []
+        },
+        {
+            "text": "Do you have skin?",
+            "intent": "ask_skin",
+            "entities": []
+        },
+        {
+            "text": "Do you have dermis?",
+            "intent": "ask_skin",
+            "entities": []
+        },
+        {
+            "text": "Do you have teeth?",
+            "intent": "ask_teeth",
+            "entities": []
+        },
+        {
+            "text": "Do you have denticles?",
+            "intent": "ask_teeth",
+            "entities": []
+        },
+        {
+            "text": "Do you have toes?",
+            "intent": "ask_toes",
+            "entities": []
+        },
+        {
+            "text": "Do you have tip of a shoe?",
+            "intent": "ask_toes",
+            "entities": []
+        },
+        {
+            "text": "Do you have hair?",
+            "intent": "ask_hair",
+            "entities": []
+        },
+        {
+            "text": "Do you have mane?",
+            "intent": "ask_hair",
+            "entities": []
+        },
+        {
+            "text": "Don't you ever sleep? ",
+            "intent": "ask_sleep",
+            "entities": []
+        },
+        {
+            "text": "Do you sleep?",
+            "intent": "ask_sleep",
+            "entities": []
+        },
+        {
+            "text": "Do you have a stomach?",
+            "intent": "ask_stomach",
+            "entities": []
+        },
+        {
+            "text": "Do you have abdomen?",
+            "intent": "ask_stomach",
+            "entities": []
+        },
+        {
+            "text": "Do you have tummy?",
+            "intent": "ask_stomach",
+            "entities": []
+        },
+        {
+            "text": "Do you have intestines?",
+            "intent": "ask_intestines",
+            "entities": []
+        },
+        {
+            "text": "Do you have guts?",
+            "intent": "ask_intestines",
+            "entities": []
+        },
+        {
+            "text": "Do you have bowels?",
+            "intent": "ask_intestines",
+            "entities": []
+        },
+        {
+            "text": "Do you ever walk",
+            "intent": "ask_walk",
+            "entities": []
+        },
+        {
+            "text": "Can you walk?",
+            "intent": "ask_walk",
+            "entities": []
+        },
+        {
+            "text": "Do you have lungs?",
+            "intent": "ask_lungs",
+            "entities": []
+        },
+        {
+            "text": "Do you have pulmonaries?",
+            "intent": "ask_lungs",
+            "entities": []
+        },
+        {
+            "text": "Do you have legs?",
+            "intent": "ask_legs",
+            "entities": []
+        },
+        {
+            "text": "Do you have limbs?",
+            "intent": "ask_legs",
+            "entities": []
+        },
+        {
+            "text": "Do you get zits?",
+            "intent": "ask_zits",
+            "entities": []
+        },
+        {
+            "text": "Do you have acnes?",
+            "intent": "ask_zits",
+            "entities": []
+        },
+        {
+            "text": "Do you have arms?",
+            "intent": "ask_arms",
+            "entities": []
+        },
+        {
+            "text": "Do you have forelimbs?",
+            "intent": "ask_arms",
+            "entities": []
+        },
+        {
+            "text": "Do you have eyes?",
+            "intent": "ask_eyes",
+            "entities": []
+        },
+        {
+            "text": "Do you have eyeballs?",
+            "intent": "ask_eyes",
+            "entities": []
+        },
+        {
+            "text": "Do you have fingernails?",
+            "intent": "ask_fingernails",
+            "entities": []
+        },
+        {
+            "text": "Do you have nails on fingers?",
+            "intent": "ask_fingernails",
+            "entities": []
+        },
+        {
+            "text": "do u wink?",
+            "intent": "ask_ wink",
+            "entities": []
+        },
+        {
+            "text": "do u blink?",
+            "intent": "ask_ wink",
+            "entities": []
+        }
+    ]
+}

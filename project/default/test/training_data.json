@@ -1,0 +1,5094 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "greet",
+        "text": "hi "
+      },
+      {
+        "intent": "greet",
+        "text": "hey "
+      },
+      {
+        "intent": "greet",
+        "text": "hello "
+      },
+      {
+        "intent": "greet",
+        "text": "Good morning "
+      },
+      {
+        "intent": "greet",
+        "text": "Good afternoon "
+      },
+      {
+        "intent": "greet",
+        "text": "Good evening "
+      },
+      {
+        "intent": "greet",
+        "text": "hy "
+      },
+      {
+        "intent": "ask_sup",
+        "text": "what's up? "
+      },
+      {
+        "intent": "ask_sup",
+        "text": "what are you doing? "
+      },
+      {
+        "intent": "ask_sup",
+        "text": "what's going on? "
+      },
+      {
+        "intent": "ask_sup",
+        "text": "sup? "
+      },
+      {
+        "intent": "ask_sup",
+        "text": "What are you up to? "
+      },
+      {
+        "intent": "ask_sup",
+        "text": "Any excitement recently? "
+      },
+      {
+        "intent": "ask_health",
+        "text": "how are you? "
+      },
+      {
+        "intent": "ask_health",
+        "text": "how you doing? "
+      },
+      {
+        "intent": "ask_health",
+        "text": "how do you do? "
+      },
+      {
+        "intent": "ask_health",
+        "text": "how are you feeling? "
+      },
+      {
+        "intent": "ask_health",
+        "text": "How's your health? "
+      },
+      {
+        "intent": "ask_health",
+        "text": "How do you feel? "
+      },
+      {
+        "intent": "ask_health",
+        "text": "How have you been? "
+      },
+      {
+        "intent": "ask_gender",
+        "text": "your gender? "
+      },
+      {
+        "intent": "ask_gender",
+        "text": "I would like to know your identity, please tell? "
+      },
+      {
+        "intent": "ask_gender",
+        "text": "what is your gender? "
+      },
+      {
+        "intent": "ask_gender",
+        "text": "Tell me if you're male or female? "
+      },
+      {
+        "intent": "ask_gender",
+        "text": "would you like to tell me that if you're a girl or a boy? "
+      },
+      {
+        "intent": "ask_gender",
+        "text": "are you man or woman? "
+      },
+      {
+        "intent": "ask_born_place",
+        "text": "where you born? "
+      },
+      {
+        "intent": "ask_born_place",
+        "entities": [
+          {
+            "start": 26,
+            "end": 38,
+            "value": "accouchement",
+            "entity": "birth"
+          }
+        ],
+        "text": "what is the place of your accouchement? "
+      },
+      {
+        "intent": "ask_born_place",
+        "entities": [
+          {
+            "start": 8,
+            "end": 11,
+            "value": "area",
+            "entity": "region"
+          }
+        ],
+        "text": "at what area you born? "
+      },
+      {
+        "intent": "ask_born_place",
+        "entities": [
+          {
+            "start": 12,
+            "end": 15,
+            "value": "spot",
+            "entity": "region"
+          }
+        ],
+        "text": "tell me the spot of your birth? "
+      },
+      {
+        "intent": "ask_born_place",
+        "text": "whereabouts of your nativity? "
+      },
+      {
+        "intent": "ask_born_place",
+        "entities": [
+          {
+            "start": 39,
+            "end": 50,
+            "value": "confinement",
+            "entity": "living"
+          }
+        ],
+        "text": "Would you like to tell me your area of confinement? "
+      },
+      {
+        "intent": "ask_religion",
+        "entities": [
+          {
+            "start": 26,
+            "end": 34,
+            "value": "religion",
+            "entity": "faith"
+          }
+        ],
+        "text": "I would like to know your religion? "
+      },
+      {
+        "intent": "ask_religion",
+        "entities": [
+          {
+            "start": 13,
+            "end": 18,
+            "value": "creed",
+            "entity": "faith"
+          }
+        ],
+        "text": "Tell me your creed? "
+      },
+      {
+        "intent": "ask_religion",
+        "entities": [
+          {
+            "start": 12,
+            "end": 20,
+            "value": "doctrine",
+            "entity": "faith"
+          }
+        ],
+        "text": "What's your doctrine? "
+      },
+      {
+        "intent": "ask_religion",
+        "entities": [
+          {
+            "start": 22,
+            "end": 26,
+            "value": "cult",
+            "entity": "faith"
+          }
+        ],
+        "text": "Please inform me your cult? "
+      },
+      {
+        "intent": "ask_religion",
+        "text": "What religious family do you belong to? "
+      },
+      {
+        "intent": "ask_religion",
+        "entities": [
+          {
+            "start": 11,
+            "end": 18,
+            "value": "worship",
+            "entity": "faith"
+          }
+        ],
+        "text": "Who do you worship? "
+      },
+      {
+        "intent": "ask_caste",
+        "entities": [
+          {
+            "start": 20,
+            "end": 25,
+            "value": "caste",
+            "entity": "family_name"
+          }
+        ],
+        "text": "Please tell me your caste? "
+      },
+      {
+        "intent": "ask_caste",
+        "entities": [
+          {
+            "start": 27,
+            "end": 32,
+            "value": "title",
+            "entity": "tag"
+          }
+        ],
+        "text": "I want to know your family title? "
+      },
+      {
+        "intent": "ask_caste",
+        "entities": [
+          {
+            "start": 33,
+            "end": 38,
+            "value": "class",
+            "entity": "tag"
+          }
+        ],
+        "text": "I would like to know your social class? "
+      },
+      {
+        "intent": "ask_caste",
+        "entities": [
+          {
+            "start": 29,
+            "end": 33,
+            "value": "rank",
+            "entity": "tag"
+          }
+        ],
+        "text": "would like to inform me your rank? "
+      },
+      {
+        "intent": "ask_caste",
+        "entities": [
+          {
+            "start": 12,
+            "end": 16,
+            "value": "group",
+            "entity": "tag"
+          }
+        ],
+        "text": "What's your group title? "
+      },
+      {
+        "intent": "ask_caste",
+        "entities": [
+          {
+            "start": 13,
+            "end": 17,
+            "value": "rank",
+            "entity": "tag"
+          }
+        ],
+        "text": "What is your rank? "
+      },
+      {
+        "intent": "ask_caste",
+        "entities": [
+          {
+            "start": 13,
+            "end": 18,
+            "value": "level",
+            "entity": "tag"
+          }
+        ],
+        "text": "Tell me your level? "
+      },
+      {
+        "intent": "ask_location",
+        "text": "where do u live? "
+      },
+      {
+        "intent": "ask_location",
+        "entities": [
+          {
+            "start": 13,
+            "end": 16,
+            "value": "area",
+            "entity": "living"
+          }
+        ],
+        "text": "what is your area of living? "
+      },
+      {
+        "intent": "ask_location",
+        "entities": [
+          {
+            "start": 8,
+            "end": 15,
+            "value": "location",
+            "entity": "living"
+          }
+        ],
+        "text": "at what location do you live? "
+      },
+      {
+        "intent": "ask_location",
+        "text": "where do you reside? "
+      },
+      {
+        "intent": "ask_location",
+        "entities": [
+          {
+            "start": 15,
+            "end": 24,
+            "value": "residence",
+            "entity": "living"
+          }
+        ],
+        "text": "where is  your residence? "
+      },
+      {
+        "intent": "ask_location",
+        "entities": [
+          {
+            "start": 25,
+            "end": 34,
+            "value": "residence",
+            "entity": "living"
+          }
+        ],
+        "text": "what is the area of your residence? "
+      },
+      {
+        "intent": "ask_location",
+        "text": "where you dwell? "
+      },
+      {
+        "intent": "ask_location",
+        "text": "where you stand? "
+      },
+      {
+        "intent": "ask_location",
+        "entities": [
+          {
+            "start": 9,
+            "end": 13,
+            "value": "stay",
+            "entity": "living"
+          }
+        ],
+        "text": "place to stay? "
+      },
+      {
+        "intent": "ask_mother",
+        "entities": [
+          {
+            "start": 12,
+            "end": 23,
+            "value": "mother name",
+            "entity": "mother"
+          }
+        ],
+        "text": "who is your mother name? "
+      },
+      {
+        "intent": "ask_mother",
+        "entities": [
+          {
+            "start": 9,
+            "end": 14,
+            "value": "mother",
+            "entity": "mother"
+          }
+        ],
+        "text": "How your mother is called? "
+      },
+      {
+        "intent": "ask_mother",
+        "entities": [
+          {
+            "start": 13,
+            "end": 18,
+            "value": "mother",
+            "entity": "mother"
+          }
+        ],
+        "text": "what is your mother title? "
+      },
+      {
+        "intent": "ask_mother",
+        "entities": [
+          {
+            "start": 25,
+            "end": 31,
+            "value": "mother",
+            "entity": "mother"
+          }
+        ],
+        "text": "what do people call your mother? "
+      },
+      {
+        "intent": "ask_mother",
+        "entities": [
+          {
+            "start": 26,
+            "end": 32,
+            "value": "mother",
+            "entity": "mother"
+          }
+        ],
+        "text": "What is the title of your mother? "
+      },
+      {
+        "intent": "ask_mother",
+        "entities": [
+          {
+            "start": 9,
+            "end": 14,
+            "value": "mother",
+            "entity": "mother"
+          }
+        ],
+        "text": "How your mother call herself? "
+      },
+      {
+        "intent": "ask_father",
+        "entities": [
+          {
+            "start": 9,
+            "end": 14,
+            "value": "father",
+            "entity": "father"
+          }
+        ],
+        "text": "How your father is called? "
+      },
+      {
+        "intent": "ask_father",
+        "entities": [
+          {
+            "start": 12,
+            "end": 18,
+            "value": "father",
+            "entity": "father"
+          }
+        ],
+        "text": "who is your father? "
+      },
+      {
+        "intent": "ask_father",
+        "entities": [
+          {
+            "start": 9,
+            "end": 14,
+            "value": "father",
+            "entity": "father"
+          }
+        ],
+        "text": "How your father call himself? "
+      },
+      {
+        "intent": "ask_father",
+        "entities": [
+          {
+            "start": 13,
+            "end": 23,
+            "value": "father name",
+            "entity": "father"
+          }
+        ],
+        "text": "what is your father name? "
+      },
+      {
+        "intent": "ask_father",
+        "entities": [
+          {
+            "start": 25,
+            "end": 31,
+            "value": "father",
+            "entity": "father"
+          }
+        ],
+        "text": "what do people call your father? "
+      },
+      {
+        "intent": "ask_father",
+        "entities": [
+          {
+            "start": 26,
+            "end": 32,
+            "value": "father",
+            "entity": "father"
+          }
+        ],
+        "text": "What is the title of your father? "
+      },
+      {
+        "intent": "ask_grandpa",
+        "entities": [
+          {
+            "start": 9,
+            "end": 19,
+            "value": "grandfather",
+            "entity": "grandfather"
+          }
+        ],
+        "text": "How your grandfather is called? "
+      },
+      {
+        "intent": "ask_grandpa",
+        "entities": [
+          {
+            "start": 12,
+            "end": 21,
+            "value": "grandfather",
+            "entity": "grandfather"
+          }
+        ],
+        "text": "who is your grandfather? "
+      },
+      {
+        "intent": "ask_grandpa",
+        "entities": [
+          {
+            "start": 9,
+            "end": 19,
+            "value": "grandfather",
+            "entity": "grandfather"
+          }
+        ],
+        "text": "How your grandfather call himself? "
+      },
+      {
+        "intent": "ask_grandpa",
+        "entities": [
+          {
+            "start": 13,
+            "end": 27,
+            "value": "grandfather name",
+            "entity": "grandfather"
+          }
+        ],
+        "text": "what is your granfather name? "
+      },
+      {
+        "intent": "ask_grandpa",
+        "entities": [
+          {
+            "start": 25,
+            "end": 34,
+            "value": "grandfather",
+            "entity": "grandfather"
+          }
+        ],
+        "text": "what do people call your granfather? "
+      },
+      {
+        "intent": "ask_grandpa",
+        "entities": [
+          {
+            "start": 26,
+            "end": 37,
+            "value": "grandfather",
+            "entity": "grandfather"
+          }
+        ],
+        "text": "What is the title of your grandfather? "
+      },
+      {
+        "intent": "ask_grandma",
+        "entities": [
+          {
+            "start": 9,
+            "end": 19,
+            "value": "grandmother",
+            "entity": "grandmother"
+          }
+        ],
+        "text": "How your grandmother is called? "
+      },
+      {
+        "intent": "ask_grandma",
+        "entities": [
+          {
+            "start": 12,
+            "end": 23,
+            "value": "grandmother",
+            "entity": "grandmother"
+          }
+        ],
+        "text": "who is your grandmother? "
+      },
+      {
+        "intent": "ask_grandma",
+        "entities": [
+          {
+            "start": 9,
+            "end": 19,
+            "value": "grandmother",
+            "entity": "grandmother"
+          }
+        ],
+        "text": "How your grandmother call herself? "
+      },
+      {
+        "intent": "ask_grandma",
+        "entities": [
+          {
+            "start": 13,
+            "end": 28,
+            "value": "grandmother name",
+            "entity": "grandmother"
+          }
+        ],
+        "text": "what is your grandmother name? "
+      },
+      {
+        "intent": "ask_grandma",
+        "entities": [
+          {
+            "start": 25,
+            "end": 36,
+            "value": "grandmother",
+            "entity": "grandmother"
+          }
+        ],
+        "text": "what do people call your grandmother? "
+      },
+      {
+        "intent": "ask_grandma",
+        "entities": [
+          {
+            "start": 26,
+            "end": 37,
+            "value": "grandmother",
+            "entity": "grandmother"
+          }
+        ],
+        "text": "What is the title of your grandmother? "
+      },
+      {
+        "intent": "ask_family",
+        "text": "how many siblings you have? "
+      },
+      {
+        "intent": "ask_family",
+        "text": "number of siblings you have? "
+      },
+      {
+        "intent": "ask_family",
+        "text": "how many brothers and sisters do you have? "
+      },
+      {
+        "intent": "ask_family",
+        "text": "how many sibs you have? "
+      },
+      {
+        "intent": "ask_family",
+        "entities": [
+          {
+            "start": 9,
+            "end": 18,
+            "value": "offsprings",
+            "entity": "childern"
+          }
+        ],
+        "text": "how many offsprings your parents have other than you? "
+      },
+      {
+        "intent": "ask_family",
+        "text": "how many childern your parents have other than you? "
+      },
+      {
+        "intent": "ask_name",
+        "entities": [
+          {
+            "start": 13,
+            "end": 17,
+            "value": "name",
+            "entity": "identity"
+          }
+        ],
+        "text": "What is your name? "
+      },
+      {
+        "intent": "ask_name",
+        "text": "Who Are You? "
+      },
+      {
+        "intent": "ask_name",
+        "text": "how you are called "
+      },
+      {
+        "intent": "ask_name",
+        "text": "what do people call you? "
+      },
+      {
+        "intent": "ask_name",
+        "entities": [
+          {
+            "start": 13,
+            "end": 17,
+            "value": "name",
+            "entity": "identity"
+          }
+        ],
+        "text": "tell me your name? "
+      },
+      {
+        "intent": "ask_name",
+        "entities": [
+          {
+            "start": 18,
+            "end": 21,
+            "value": "name",
+            "entity": "identity"
+          }
+        ],
+        "text": "please state your name "
+      },
+      {
+        "intent": "ask_name",
+        "text": "Who might you be? "
+      },
+      {
+        "intent": "ask_name",
+        "entities": [
+          {
+            "start": 10,
+            "end": 13,
+            "value": "name",
+            "entity": "identity"
+          }
+        ],
+        "text": "your good name please? "
+      },
+      {
+        "intent": "ask_age",
+        "entities": [
+          {
+            "start": 13,
+            "end": 16,
+            "value": "age",
+            "entity": "age"
+          }
+        ],
+        "text": "What is your age? "
+      },
+      {
+        "intent": "ask_age",
+        "entities": [
+          {
+            "start": 4,
+            "end": 6,
+            "value": "old",
+            "entity": "age"
+          }
+        ],
+        "text": "how old are you? "
+      },
+      {
+        "intent": "ask_age",
+        "text": "how long have you been in this world? "
+      },
+      {
+        "intent": "ask_age",
+        "text": "How ancient are you? "
+      },
+      {
+        "intent": "ask_age",
+        "entities": [
+          {
+            "start": 4,
+            "end": 6,
+            "value": "old",
+            "entity": "age"
+          }
+        ],
+        "text": "How old did you turn this year? "
+      },
+      {
+        "intent": "ask_age",
+        "text": "What's the time of your life? "
+      },
+      {
+        "intent": "ask_date_birth",
+        "text": "what is your date of birth? "
+      },
+      {
+        "intent": "ask_date_birth",
+        "text": "Tell me the date of your birthday? "
+      },
+      {
+        "intent": "ask_date_birth",
+        "text": "When were you born? "
+      },
+      {
+        "intent": "ask_date_birth",
+        "text": "When is your birthday? "
+      },
+      {
+        "intent": "ask_date_birth",
+        "text": "what is your birthday date? "
+      },
+      {
+        "intent": "ask_date_birth",
+        "text": "When is your birthday party? "
+      },
+      {
+        "intent": "ask_height",
+        "entities": [
+          {
+            "start": 13,
+            "end": 19,
+            "value": "height",
+            "entity": "physique"
+          }
+        ],
+        "text": "What is your height? "
+      },
+      {
+        "intent": "ask_height",
+        "entities": [
+          {
+            "start": 4,
+            "end": 7,
+            "value": "tall",
+            "entity": "physique"
+          }
+        ],
+        "text": "How tall are you? "
+      },
+      {
+        "intent": "ask_height",
+        "entities": [
+          {
+            "start": 4,
+            "end": 7,
+            "value": "long",
+            "entity": "physique"
+          }
+        ],
+        "text": "how long are you? "
+      },
+      {
+        "intent": "ask_height",
+        "entities": [
+          {
+            "start": 4,
+            "end": 8,
+            "value": "short",
+            "entity": "physique"
+          }
+        ],
+        "text": "How short are you? "
+      },
+      {
+        "intent": "ask_height",
+        "entities": [
+          {
+            "start": 17,
+            "end": 23,
+            "value": "height",
+            "entity": "physique"
+          }
+        ],
+        "text": "How much is your height? "
+      },
+      {
+        "intent": "ask_height",
+        "entities": [
+          {
+            "start": 4,
+            "end": 7,
+            "value": "high",
+            "entity": "physique"
+          }
+        ],
+        "text": "how high are you? "
+      },
+      {
+        "intent": "ask_appearance",
+        "entities": [
+          {
+            "start": 13,
+            "end": 19,
+            "value": "weight",
+            "entity": "physique"
+          }
+        ],
+        "text": "what is your weight? "
+      },
+      {
+        "intent": "ask_appearance",
+        "entities": [
+          {
+            "start": 16,
+            "end": 21,
+            "value": "weigh",
+            "entity": "physique"
+          }
+        ],
+        "text": "how much do you weigh? "
+      },
+      {
+        "intent": "ask_appearance",
+        "entities": [
+          {
+            "start": 5,
+            "end": 10,
+            "value": "weight",
+            "entity": "physique"
+          }
+        ],
+        "text": "What weight are you? "
+      },
+      {
+        "intent": "ask_appearance",
+        "entities": [
+          {
+            "start": 9,
+            "end": 13,
+            "value": "heavy",
+            "entity": "physique"
+          }
+        ],
+        "text": "How much heavy are you? "
+      },
+      {
+        "intent": "ask_appearance",
+        "entities": [
+          {
+            "start": 9,
+            "end": 13,
+            "value": "light",
+            "entity": "physique"
+          }
+        ],
+        "text": "How much light are you? "
+      },
+      {
+        "intent": "ask_appearance",
+        "entities": [
+          {
+            "start": 12,
+            "end": 17,
+            "value": "weigh",
+            "entity": "physique"
+          }
+        ],
+        "text": "What do you weigh? "
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 6,
+            "end": 14,
+            "value": "languages",
+            "entity": "speaking"
+          }
+        ],
+        "text": "Which languages can you speak? "
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 13,
+            "end": 21,
+            "value": "languages",
+            "entity": "speaking"
+          }
+        ],
+        "text": "what are the languages can you speak? "
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 8,
+            "end": 16,
+            "value": "languages",
+            "entity": "speaking"
+          }
+        ],
+        "text": "At what languages you are good at speaking? "
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 5,
+            "end": 13,
+            "value": "languages",
+            "entity": "speaking"
+          }
+        ],
+        "text": "What languages do you understand? "
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 5,
+            "end": 10,
+            "value": "lingos",
+            "entity": "speaking"
+          }
+        ],
+        "text": "What lingos do you speak normally? "
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 9,
+            "end": 15,
+            "value": "bhashas",
+            "entity": "speaking"
+          }
+        ],
+        "text": "How many bhashas do you understand? "
+      },
+      {
+        "intent": "ask_color",
+        "entities": [
+          {
+            "start": 18,
+            "end": 23,
+            "value": "color",
+            "entity": "pigmentation"
+          }
+        ],
+        "text": "What is your hair color? "
+      },
+      {
+        "intent": "ask_color",
+        "entities": [
+          {
+            "start": 12,
+            "end": 16,
+            "value": "color",
+            "entity": "pigmentation"
+          }
+        ],
+        "text": "what is the color of your hair? "
+      },
+      {
+        "intent": "ask_color",
+        "entities": [
+          {
+            "start": 12,
+            "end": 16,
+            "value": "shade",
+            "entity": "pigmentation"
+          }
+        ],
+        "text": "what is the shade of your hair? "
+      },
+      {
+        "intent": "ask_color",
+        "entities": [
+          {
+            "start": 18,
+            "end": 23,
+            "value": "shade",
+            "entity": "pigmentation"
+          }
+        ],
+        "text": "what is your hair shade? "
+      },
+      {
+        "intent": "ask_color",
+        "entities": [
+          {
+            "start": 11,
+            "end": 15,
+            "value": "color",
+            "entity": "pigmentation"
+          }
+        ],
+        "text": "Which hair color do you use? "
+      },
+      {
+        "intent": "ask_color",
+        "entities": [
+          {
+            "start": 5,
+            "end": 10,
+            "value": "colour",
+            "entity": "pigmentation"
+          }
+        ],
+        "text": "What colour hair do you have? "
+      },
+      {
+        "intent": "ask_color",
+        "entities": [
+          {
+            "start": 5,
+            "end": 10,
+            "value": "colour",
+            "entity": "pigmentation"
+          }
+        ],
+        "text": "What colour is your hair? "
+      },
+      {
+        "intent": "ask_color",
+        "entities": [
+          {
+            "start": 18,
+            "end": 23,
+            "value": "color",
+            "entity": "pigmentation"
+          }
+        ],
+        "text": "What is your eyes color? "
+      },
+      {
+        "intent": "ask_color",
+        "entities": [
+          {
+            "start": 12,
+            "end": 16,
+            "value": "color",
+            "entity": "pigmentation"
+          }
+        ],
+        "text": "what is the color of your eyes? "
+      },
+      {
+        "intent": "ask_color",
+        "entities": [
+          {
+            "start": 12,
+            "end": 16,
+            "value": "shade",
+            "entity": "pigmentation"
+          }
+        ],
+        "text": "what is the shade of your eyes? "
+      },
+      {
+        "intent": "ask_color",
+        "entities": [
+          {
+            "start": 12,
+            "end": 16,
+            "value": "color",
+            "entity": "pigmentation"
+          }
+        ],
+        "text": "what is the color of your lens? "
+      },
+      {
+        "intent": "ask_color",
+        "entities": [
+          {
+            "start": 18,
+            "end": 23,
+            "value": "color",
+            "entity": "pigmentation"
+          }
+        ],
+        "text": "what is your lens color? "
+      },
+      {
+        "intent": "ask_color",
+        "entities": [
+          {
+            "start": 5,
+            "end": 10,
+            "value": "colour",
+            "entity": "pigmentation"
+          }
+        ],
+        "text": "What colour eyes does he have? "
+      },
+      {
+        "intent": "ask_color",
+        "entities": [
+          {
+            "start": 5,
+            "end": 10,
+            "value": "colour",
+            "entity": "pigmentation"
+          }
+        ],
+        "text": "What colour are your eyes? "
+      },
+      {
+        "intent": "ask_education",
+        "entities": [
+          {
+            "start": 21,
+            "end": 30,
+            "value": "education",
+            "entity": "education"
+          }
+        ],
+        "text": "What is your highest education? "
+      },
+      {
+        "intent": "ask_education",
+        "text": "how much educated are you? "
+      },
+      {
+        "intent": "ask_education",
+        "entities": [
+          {
+            "start": 17,
+            "end": 22,
+            "value": "degree",
+            "entity": "education"
+          }
+        ],
+        "text": "what is the last degree you acheived? "
+      },
+      {
+        "intent": "ask_education",
+        "entities": [
+          {
+            "start": 13,
+            "end": 26,
+            "value": "qualification",
+            "entity": "education"
+          }
+        ],
+        "text": "What is your qualification? "
+      },
+      {
+        "intent": "ask_education",
+        "text": "What have you studied? "
+      },
+      {
+        "intent": "ask_education",
+        "entities": [
+          {
+            "start": 9,
+            "end": 13,
+            "value": "class",
+            "entity": "level"
+          }
+        ],
+        "text": "In which class do you study? "
+      },
+      {
+        "intent": "ask_education",
+        "entities": [
+          {
+            "start": 34,
+            "end": 42,
+            "value": "semester",
+            "entity": "level"
+          }
+        ],
+        "text": "I would like to know your current semester? "
+      },
+      {
+        "intent": "ask_hobbies",
+        "entities": [
+          {
+            "start": 14,
+            "end": 21,
+            "value": "hobbies",
+            "entity": "activities"
+          }
+        ],
+        "text": "What are your hobbies? "
+      },
+      {
+        "intent": "ask_hobbies",
+        "text": "what do you do in your spare hour? "
+      },
+      {
+        "intent": "ask_hobbies",
+        "text": "How do you pass your time? "
+      },
+      {
+        "intent": "ask_hobbies",
+        "text": "How do you spend your leisure days? "
+      },
+      {
+        "intent": "ask_hobbies",
+        "text": "What do you do for fun? "
+      },
+      {
+        "intent": "ask_hobbies",
+        "text": "What you try to do in your break? "
+      },
+      {
+        "intent": "ask_workout",
+        "entities": [
+          {
+            "start": 7,
+            "end": 14,
+            "value": "workout",
+            "entity": "exercise"
+          }
+        ],
+        "text": "do you workout? "
+      },
+      {
+        "intent": "ask_workout",
+        "entities": [
+          {
+            "start": 18,
+            "end": 28,
+            "value": "gymnastics",
+            "entity": "exercise"
+          }
+        ],
+        "text": "do you like doing gymnastics? "
+      },
+      {
+        "intent": "ask_workout",
+        "text": "do you go for exercise in the morning? "
+      },
+      {
+        "intent": "ask_workout",
+        "entities": [
+          {
+            "start": 14,
+            "end": 20,
+            "value": "jogging",
+            "entity": "exercise"
+          }
+        ],
+        "text": "do you go for jogging daily? "
+      },
+      {
+        "intent": "ask_workout",
+        "entities": [
+          {
+            "start": 24,
+            "end": 32,
+            "value": "aerobics",
+            "entity": "exercise"
+          }
+        ],
+        "text": "do you take interest in aerobics? "
+      },
+      {
+        "intent": "ask_workout",
+        "entities": [
+          {
+            "start": 10,
+            "end": 13,
+            "value": "yoga",
+            "entity": "exercise"
+          }
+        ],
+        "text": "do you do yoga everyday? "
+      },
+      {
+        "intent": "ask_education",
+        "text": "What is your favorite field of study? "
+      },
+      {
+        "intent": "ask_education",
+        "entities": [
+          {
+            "start": 24,
+            "end": 31,
+            "value": "subject",
+            "entity": "education"
+          }
+        ],
+        "text": "What is your most liked subject? "
+      },
+      {
+        "intent": "ask_education",
+        "entities": [
+          {
+            "start": 6,
+            "end": 12,
+            "value": "subject",
+            "entity": "education"
+          }
+        ],
+        "text": "which subject do you like the most? "
+      },
+      {
+        "intent": "ask_education",
+        "entities": [
+          {
+            "start": 6,
+            "end": 10,
+            "value": "field",
+            "entity": "education"
+          }
+        ],
+        "text": "which field do you love? "
+      },
+      {
+        "intent": "ask_education",
+        "entities": [
+          {
+            "start": 22,
+            "end": 28,
+            "value": "course",
+            "entity": "education"
+          }
+        ],
+        "text": "what is your favorite course? "
+      },
+      {
+        "intent": "ask_education",
+        "entities": [
+          {
+            "start": 9,
+            "end": 18,
+            "value": "discipline",
+            "entity": "education"
+          }
+        ],
+        "text": "In which discipline you're intrested the most? "
+      },
+      {
+        "intent": "ask_song",
+        "entities": [
+          {
+            "start": 22,
+            "end": 26,
+            "value": "poem",
+            "entity": "theme"
+          }
+        ],
+        "text": "What is your favorite poem? "
+      },
+      {
+        "intent": "ask_song",
+        "entities": [
+          {
+            "start": 6,
+            "end": 11,
+            "value": "melody",
+            "entity": "theme"
+          }
+        ],
+        "text": "which melody do you like the most? "
+      },
+      {
+        "intent": "ask_song",
+        "entities": [
+          {
+            "start": 25,
+            "end": 31,
+            "value": "melody",
+            "entity": "theme"
+          }
+        ],
+        "text": "what is your most loving melody? "
+      },
+      {
+        "intent": "ask_song",
+        "entities": [
+          {
+            "start": 6,
+            "end": 9,
+            "value": "tune",
+            "entity": "theme"
+          }
+        ],
+        "text": "Which tune you like to hear? "
+      },
+      {
+        "intent": "ask_song",
+        "entities": [
+          {
+            "start": 30,
+            "end": 34,
+            "value": "music",
+            "entity": "theme"
+          }
+        ],
+        "text": "Tell me your current favorite music "
+      },
+      {
+        "intent": "ask_song",
+        "entities": [
+          {
+            "start": 22,
+            "end": 27,
+            "value": "music",
+            "entity": "theme"
+          }
+        ],
+        "text": "What is your favorite music? "
+      },
+      {
+        "intent": "ask_fav_family",
+        "entities": [
+          {
+            "start": 23,
+            "end": 28,
+            "value": "child",
+            "entity": "childern"
+          }
+        ],
+        "text": "who is your most loved child? "
+      },
+      {
+        "intent": "ask_fav_family",
+        "entities": [
+          {
+            "start": 21,
+            "end": 24,
+            "value": "kid",
+            "entity": "childern"
+          }
+        ],
+        "text": "who is your favorite kid? "
+      },
+      {
+        "intent": "ask_fav_family",
+        "entities": [
+          {
+            "start": 6,
+            "end": 8,
+            "value": "kid",
+            "entity": "childern"
+          }
+        ],
+        "text": "which kid do you like the most? "
+      },
+      {
+        "intent": "ask_fav_family",
+        "entities": [
+          {
+            "start": 11,
+            "end": 15,
+            "value": "child",
+            "entity": "childern"
+          }
+        ],
+        "text": "With which child you have more affection? "
+      },
+      {
+        "intent": "ask_fav_family",
+        "entities": [
+          {
+            "start": 21,
+            "end": 30,
+            "value": "offspring",
+            "entity": "childern"
+          }
+        ],
+        "text": "who is your favorite offspring? "
+      },
+      {
+        "intent": "ask_fav_family",
+        "entities": [
+          {
+            "start": 6,
+            "end": 14,
+            "value": "offspring",
+            "entity": "childern"
+          }
+        ],
+        "text": "which offspring do you like the most? "
+      },
+      {
+        "intent": "ask_joke",
+        "entities": [
+          {
+            "start": 14,
+            "end": 18,
+            "value": "joke",
+            "entity": "pleasure"
+          }
+        ],
+        "text": "your favorite joke? "
+      },
+      {
+        "intent": "ask_joke",
+        "entities": [
+          {
+            "start": 8,
+            "end": 11,
+            "value": "joke",
+            "entity": "pleasure"
+          }
+        ],
+        "text": "at what joke you laughed so hard? "
+      },
+      {
+        "intent": "ask_joke",
+        "text": "what is the funniest thing you ever heard? "
+      },
+      {
+        "intent": "ask_joke",
+        "entities": [
+          {
+            "start": 5,
+            "end": 8,
+            "value": "joke",
+            "entity": "pleasure"
+          }
+        ],
+        "text": "what joke you like the most? "
+      },
+      {
+        "intent": "ask_joke",
+        "entities": [
+          {
+            "start": 31,
+            "end": 34,
+            "value": "joke",
+            "entity": "pleasure"
+          }
+        ],
+        "text": "Tell me your all time favorite joke "
+      },
+      {
+        "intent": "ask_joke",
+        "entities": [
+          {
+            "start": 22,
+            "end": 26,
+            "value": "jest",
+            "entity": "pleasure"
+          }
+        ],
+        "text": "Tell me your favorite jest? "
+      },
+      {
+        "intent": "ask_sustenance",
+        "entities": [
+          {
+            "start": 14,
+            "end": 18,
+            "value": "food",
+            "entity": "edible"
+          }
+        ],
+        "text": "your favorite food? "
+      },
+      {
+        "intent": "ask_sustenance",
+        "entities": [
+          {
+            "start": 22,
+            "end": 26,
+            "value": "dish",
+            "entity": "edible"
+          }
+        ],
+        "text": "what is your favorite dish? "
+      },
+      {
+        "intent": "ask_sustenance",
+        "entities": [
+          {
+            "start": 38,
+            "end": 41,
+            "value": "food",
+            "entity": "edible"
+          }
+        ],
+        "text": "I would like to know your most loving food "
+      },
+      {
+        "intent": "ask_sustenance",
+        "entities": [
+          {
+            "start": 47,
+            "end": 51,
+            "value": "dish",
+            "entity": "edible"
+          }
+        ],
+        "text": "I would love if you inform me your most liking dish? "
+      },
+      {
+        "intent": "ask_sustenance",
+        "entities": [
+          {
+            "start": 22,
+            "end": 26,
+            "value": "meal",
+            "entity": "edible"
+          }
+        ],
+        "text": "what is your favorite meal? "
+      },
+      {
+        "intent": "ask_sustenance",
+        "entities": [
+          {
+            "start": 6,
+            "end": 9,
+            "value": "meal",
+            "entity": "edible"
+          }
+        ],
+        "text": "which meal you love the most? "
+      },
+      {
+        "intent": "ask_sports",
+        "entities": [
+          {
+            "start": 22,
+            "end": 28,
+            "value": "sports",
+            "entity": "games"
+          }
+        ],
+        "text": "what is your favorite sports? "
+      },
+      {
+        "intent": "ask_sports",
+        "entities": [
+          {
+            "start": 22,
+            "end": 28,
+            "value": "frolic",
+            "entity": "games"
+          }
+        ],
+        "text": "what is your favorite frolic? "
+      },
+      {
+        "intent": "ask_sports",
+        "entities": [
+          {
+            "start": 6,
+            "end": 11,
+            "value": "frolic",
+            "entity": "games"
+          }
+        ],
+        "text": "which frolic you play the most? "
+      },
+      {
+        "intent": "ask_sports",
+        "entities": [
+          {
+            "start": 6,
+            "end": 11,
+            "value": "sports",
+            "entity": "games"
+          }
+        ],
+        "text": "which sports you like the most? "
+      },
+      {
+        "intent": "ask_sports",
+        "entities": [
+          {
+            "start": 6,
+            "end": 9,
+            "value": "play",
+            "entity": "games"
+          }
+        ],
+        "text": "which play you like the most? "
+      },
+      {
+        "intent": "ask_sports",
+        "entities": [
+          {
+            "start": 22,
+            "end": 26,
+            "value": "play",
+            "entity": "games"
+          }
+        ],
+        "text": "what is your favorite play? "
+      },
+      {
+        "intent": "ask_color",
+        "entities": [
+          {
+            "start": 14,
+            "end": 19,
+            "value": "color",
+            "entity": "pigmentation"
+          }
+        ],
+        "text": "your favorite color? "
+      },
+      {
+        "intent": "ask_color",
+        "entities": [
+          {
+            "start": 25,
+            "end": 30,
+            "value": "color",
+            "entity": "pigmentation"
+          }
+        ],
+        "text": "what is your most liking color? "
+      },
+      {
+        "intent": "ask_color",
+        "entities": [
+          {
+            "start": 14,
+            "end": 19,
+            "value": "shade",
+            "entity": "pigmentation"
+          }
+        ],
+        "text": "your favorite shade? "
+      },
+      {
+        "intent": "ask_color",
+        "entities": [
+          {
+            "start": 25,
+            "end": 30,
+            "value": "shade",
+            "entity": "pigmentation"
+          }
+        ],
+        "text": "what is your most liking shade? "
+      },
+      {
+        "intent": "ask_color",
+        "entities": [
+          {
+            "start": 14,
+            "end": 18,
+            "value": "tint",
+            "entity": "pigmentation"
+          }
+        ],
+        "text": "your favorite tint? "
+      },
+      {
+        "intent": "ask_color",
+        "entities": [
+          {
+            "start": 25,
+            "end": 29,
+            "value": "tint",
+            "entity": "pigmentation"
+          }
+        ],
+        "text": "what is your most liking tint? "
+      },
+      {
+        "intent": "ask_dress",
+        "entities": [
+          {
+            "start": 22,
+            "end": 28,
+            "value": "outfit",
+            "entity": "clothing"
+          }
+        ],
+        "text": "your favorite type of outfit? "
+      },
+      {
+        "intent": "ask_dress",
+        "entities": [
+          {
+            "start": 30,
+            "end": 35,
+            "value": "dress",
+            "entity": "clothing"
+          }
+        ],
+        "text": "what is your favorite type of dress? "
+      },
+      {
+        "intent": "ask_dress",
+        "entities": [
+          {
+            "start": 13,
+            "end": 17,
+            "value": "dress",
+            "entity": "clothing"
+          }
+        ],
+        "text": "what kind of dress you like the most? "
+      },
+      {
+        "intent": "ask_dress",
+        "entities": [
+          {
+            "start": 13,
+            "end": 19,
+            "value": "clothes",
+            "entity": "clothing"
+          }
+        ],
+        "text": "what sort of clothes you like to wear the most? "
+      },
+      {
+        "intent": "ask_dress",
+        "entities": [
+          {
+            "start": 13,
+            "end": 18,
+            "value": "outfit",
+            "entity": "clothing"
+          }
+        ],
+        "text": "what type of outfit you love to wear the most? "
+      },
+      {
+        "intent": "ask_dress",
+        "entities": [
+          {
+            "start": 22,
+            "end": 29,
+            "value": "clothes",
+            "entity": "clothing"
+          }
+        ],
+        "text": "your favorite kind of clothes? "
+      },
+      {
+        "intent": "ask_fav_show",
+        "entities": [
+          {
+            "start": 31,
+            "end": 36,
+            "value": "movie",
+            "entity": "entertainment"
+          }
+        ],
+        "text": "What is your all time favorite movie? "
+      },
+      {
+        "intent": "ask_fav_show",
+        "entities": [
+          {
+            "start": 6,
+            "end": 10,
+            "value": "movie",
+            "entity": "entertainment"
+          }
+        ],
+        "text": "which movie you like the most? "
+      },
+      {
+        "intent": "ask_fav_show",
+        "entities": [
+          {
+            "start": 14,
+            "end": 18,
+            "value": "film",
+            "entity": "entertainment"
+          }
+        ],
+        "text": "your favorite film? "
+      },
+      {
+        "intent": "ask_fav_show",
+        "entities": [
+          {
+            "start": 6,
+            "end": 9,
+            "value": "film",
+            "entity": "entertainment"
+          }
+        ],
+        "text": "which film you like the most? "
+      },
+      {
+        "intent": "ask_fav_show",
+        "entities": [
+          {
+            "start": 19,
+            "end": 26,
+            "value": "picture",
+            "entity": "entertainment"
+          }
+        ],
+        "text": "your most favorite picture? "
+      },
+      {
+        "intent": "ask_fav_show",
+        "entities": [
+          {
+            "start": 25,
+            "end": 32,
+            "value": "picture",
+            "entity": "entertainment"
+          }
+        ],
+        "text": "What is your most liking picture? "
+      },
+      {
+        "intent": "ask_fav_show",
+        "entities": [
+          {
+            "start": 22,
+            "end": 26,
+            "value": "movie",
+            "entity": "entertainment"
+          }
+        ],
+        "text": "what is your favorite movie genre? "
+      },
+      {
+        "intent": "ask_fav_show",
+        "entities": [
+          {
+            "start": 13,
+            "end": 18,
+            "value": "movies",
+            "entity": "entertainment"
+          }
+        ],
+        "text": "What kind of movies do you like? "
+      },
+      {
+        "intent": "ask_fav_show",
+        "entities": [
+          {
+            "start": 13,
+            "end": 17,
+            "value": "films",
+            "entity": "entertainment"
+          }
+        ],
+        "text": "What type of films do you love? "
+      },
+      {
+        "intent": "ask_fav_show",
+        "entities": [
+          {
+            "start": 25,
+            "end": 28,
+            "value": "film",
+            "entity": "entertainment"
+          }
+        ],
+        "text": "what is your most liking film genre? "
+      },
+      {
+        "intent": "ask_fav_show",
+        "entities": [
+          {
+            "start": 13,
+            "end": 18,
+            "value": "movies",
+            "entity": "entertainment"
+          }
+        ],
+        "text": "What sort of movies you're intrested in watching? "
+      },
+      {
+        "intent": "ask_fav_show",
+        "entities": [
+          {
+            "start": 13,
+            "end": 17,
+            "value": "films",
+            "entity": "entertainment"
+          }
+        ],
+        "text": "What sort of films you like to watch? "
+      },
+      {
+        "intent": "ask_fav_show",
+        "entities": [
+          {
+            "start": 14,
+            "end": 20,
+            "value": "series",
+            "entity": "entertainment"
+          }
+        ],
+        "text": "your favorite series? "
+      },
+      {
+        "intent": "ask_fav_show",
+        "entities": [
+          {
+            "start": 22,
+            "end": 27,
+            "value": "season",
+            "entity": "entertainment"
+          }
+        ],
+        "text": "what is your favorite season on internet/TV? "
+      },
+      {
+        "intent": "ask_fav_show",
+        "entities": [
+          {
+            "start": 14,
+            "end": 17,
+            "value": "soap opera",
+            "entity": "entertainment"
+          }
+        ],
+        "text": "your favorite soap opera? "
+      },
+      {
+        "intent": "ask_fav_show",
+        "entities": [
+          {
+            "start": 20,
+            "end": 26,
+            "value": "serials",
+            "entity": "entertainment"
+          }
+        ],
+        "text": "your favorite drama serials on internet/TV? "
+      },
+      {
+        "intent": "ask_fav_show",
+        "entities": [
+          {
+            "start": 6,
+            "end": 10,
+            "value": "drama",
+            "entity": "entertainment"
+          }
+        ],
+        "text": "Which drama you like the most? "
+      },
+      {
+        "intent": "ask_fav_show",
+        "entities": [
+          {
+            "start": 31,
+            "end": 37,
+            "value": "serial",
+            "entity": "entertainment"
+          }
+        ],
+        "text": "What is your all time favorite serial? "
+      },
+      {
+        "intent": "ask_vehicle",
+        "entities": [
+          {
+            "start": 13,
+            "end": 19,
+            "value": "vehicle",
+            "entity": "transportation"
+          }
+        ],
+        "text": "what type of vehicle you like the most? "
+      },
+      {
+        "intent": "ask_vehicle",
+        "entities": [
+          {
+            "start": 22,
+            "end": 28,
+            "value": "vehicle",
+            "entity": "transportation"
+          }
+        ],
+        "text": "what is your favorite vehicle type? "
+      },
+      {
+        "intent": "ask_vehicle",
+        "entities": [
+          {
+            "start": 16,
+            "end": 22,
+            "value": "vehicle",
+            "entity": "transportation"
+          }
+        ],
+        "text": "In what type of vehicle you love to travel? "
+      },
+      {
+        "intent": "ask_vehicle",
+        "entities": [
+          {
+            "start": 30,
+            "end": 39,
+            "value": "transport",
+            "entity": "transportation"
+          }
+        ],
+        "text": "What is your favorite type of transport? "
+      },
+      {
+        "intent": "ask_vehicle",
+        "entities": [
+          {
+            "start": 6,
+            "end": 14,
+            "value": "transport",
+            "entity": "transportation"
+          }
+        ],
+        "text": "Which transport you use for conveyance? "
+      },
+      {
+        "intent": "ask_vehicle",
+        "entities": [
+          {
+            "start": 6,
+            "end": 12,
+            "value": "vehicle",
+            "entity": "transportation"
+          }
+        ],
+        "text": "Which vehicle do you use for conveyance? "
+      },
+      {
+        "intent": "ask_superstar",
+        "entities": [
+          {
+            "start": 15,
+            "end": 19,
+            "value": "hero",
+            "entity": "actor"
+          }
+        ],
+        "text": "your favourite hero? "
+      },
+      {
+        "intent": "ask_superstar",
+        "entities": [
+          {
+            "start": 35,
+            "end": 39,
+            "value": "super hero",
+            "entity": "actor"
+          }
+        ],
+        "text": "I would like to know your favorite super hero? "
+      },
+      {
+        "intent": "ask_superstar",
+        "entities": [
+          {
+            "start": 18,
+            "end": 22,
+            "value": "idol",
+            "entity": "actor"
+          }
+        ],
+        "text": "Who is your movie idol? "
+      },
+      {
+        "intent": "ask_superstar",
+        "entities": [
+          {
+            "start": 43,
+            "end": 52,
+            "value": "superstar",
+            "entity": "actor"
+          }
+        ],
+        "text": "would you like to tell me your most liking superstar? "
+      },
+      {
+        "intent": "ask_superstar",
+        "entities": [
+          {
+            "start": 18,
+            "end": 22,
+            "value": "hero",
+            "entity": "actor"
+          }
+        ],
+        "text": "Who is your ideal hero? "
+      },
+      {
+        "intent": "ask_superstar",
+        "entities": [
+          {
+            "start": 23,
+            "end": 32,
+            "value": "superstar",
+            "entity": "actor"
+          }
+        ],
+        "text": "Who is your most loved superstar? "
+      },
+      {
+        "intent": "ask_superstar",
+        "entities": [
+          {
+            "start": 21,
+            "end": 25,
+            "value": "movie",
+            "entity": "entertainment"
+          }
+        ],
+        "text": "who is your favorite movie character? "
+      },
+      {
+        "intent": "ask_superstar",
+        "entities": [
+          {
+            "start": 6,
+            "end": 10,
+            "value": "movie",
+            "entity": "entertainment"
+          }
+        ],
+        "text": "Which movie character you like the most? "
+      },
+      {
+        "intent": "ask_superstar",
+        "text": "who is your favorite fiction character? "
+      },
+      {
+        "intent": "ask_superstar",
+        "entities": [
+          {
+            "start": 21,
+            "end": 29,
+            "value": "superhero",
+            "entity": "actor"
+          }
+        ],
+        "text": "who is your favorite superhero character? "
+      },
+      {
+        "intent": "ask_superstar",
+        "entities": [
+          {
+            "start": 21,
+            "end": 28,
+            "value": "persona",
+            "entity": "actor"
+          }
+        ],
+        "text": "Who is your favorite persona? "
+      },
+      {
+        "intent": "ask_superstar",
+        "entities": [
+          {
+            "start": 16,
+            "end": 23,
+            "value": "persona",
+            "entity": "actor"
+          }
+        ],
+        "text": "your most loved persona? "
+      },
+      {
+        "intent": "ask_superstar",
+        "entities": [
+          {
+            "start": 15,
+            "end": 20,
+            "value": "actor",
+            "entity": "actor"
+          }
+        ],
+        "text": "your favourite actor? "
+      },
+      {
+        "intent": "ask_superstar",
+        "entities": [
+          {
+            "start": 6,
+            "end": 10,
+            "value": "actor",
+            "entity": "actor"
+          }
+        ],
+        "text": "which actor do you like the most? "
+      },
+      {
+        "intent": "ask_superstar",
+        "entities": [
+          {
+            "start": 23,
+            "end": 28,
+            "value": "actor",
+            "entity": "actor"
+          }
+        ],
+        "text": "who is your most loved actor? "
+      },
+      {
+        "intent": "ask_superstar",
+        "entities": [
+          {
+            "start": 20,
+            "end": 26,
+            "value": "luvvie",
+            "entity": "actor"
+          }
+        ],
+        "text": "your favourite male luvvie? "
+      },
+      {
+        "intent": "ask_superstar",
+        "entities": [
+          {
+            "start": 20,
+            "end": 29,
+            "value": "performer",
+            "entity": "actor"
+          }
+        ],
+        "text": "your favourite male performer? "
+      },
+      {
+        "intent": "ask_superstar",
+        "text": "which male acting performer do you like the most? "
+      },
+      {
+        "intent": "ask_superstar",
+        "entities": [
+          {
+            "start": 28,
+            "end": 37,
+            "value": "performer",
+            "entity": "actor"
+          }
+        ],
+        "text": "who is your most loved male performer? "
+      },
+      {
+        "intent": "ask_superstar",
+        "entities": [
+          {
+            "start": 15,
+            "end": 22,
+            "value": "actress",
+            "entity": "actor"
+          }
+        ],
+        "text": "your favourite actress? "
+      },
+      {
+        "intent": "ask_superstar",
+        "entities": [
+          {
+            "start": 6,
+            "end": 12,
+            "value": "actress",
+            "entity": "actor"
+          }
+        ],
+        "text": "which actress do you like the most? "
+      },
+      {
+        "intent": "ask_superstar",
+        "entities": [
+          {
+            "start": 23,
+            "end": 30,
+            "value": "actress",
+            "entity": "actor"
+          }
+        ],
+        "text": "who is your most loved actress? "
+      },
+      {
+        "intent": "ask_superstar",
+        "entities": [
+          {
+            "start": 22,
+            "end": 28,
+            "value": "luvvie",
+            "entity": "actor"
+          }
+        ],
+        "text": "your favourite female luvvie? "
+      },
+      {
+        "intent": "ask_superstar",
+        "entities": [
+          {
+            "start": 22,
+            "end": 31,
+            "value": "performer",
+            "entity": "actor"
+          }
+        ],
+        "text": "your favourite female performer? "
+      },
+      {
+        "intent": "ask_superstar",
+        "entities": [
+          {
+            "start": 20,
+            "end": 28,
+            "value": "performer",
+            "entity": "actor"
+          }
+        ],
+        "text": "which female acting performer do you like the most? "
+      },
+      {
+        "intent": "ask_superstar",
+        "entities": [
+          {
+            "start": 30,
+            "end": 39,
+            "value": "performer",
+            "entity": "actor"
+          }
+        ],
+        "text": "who is your most loved female performer? "
+      },
+      {
+        "intent": "ask_country",
+        "entities": [
+          {
+            "start": 5,
+            "end": 22,
+            "value": "favorite country",
+            "entity": "fav_region"
+          }
+        ],
+        "text": "your favourite country? "
+      },
+      {
+        "intent": "ask_country",
+        "entities": [
+          {
+            "start": 6,
+            "end": 12,
+            "value": "country",
+            "entity": "fav_region"
+          }
+        ],
+        "text": "which country do you like the most? "
+      },
+      {
+        "intent": "ask_country",
+        "entities": [
+          {
+            "start": 18,
+            "end": 30,
+            "value": "love to visit",
+            "entity": "fav_region"
+          }
+        ],
+        "text": "Which country you love to visit? "
+      },
+      {
+        "intent": "ask_country",
+        "entities": [
+          {
+            "start": 5,
+            "end": 20,
+            "value": "favourite state",
+            "entity": "fav_region"
+          }
+        ],
+        "text": "your favourite state? "
+      },
+      {
+        "intent": "ask_country",
+        "text": "which state do you like the most? "
+      },
+      {
+        "intent": "ask_country",
+        "entities": [
+          {
+            "start": 16,
+            "end": 28,
+            "value": "love to visit",
+            "entity": "fav_region"
+          }
+        ],
+        "text": "Which state you love to visit? "
+      },
+      {
+        "intent": "ask_country",
+        "entities": [
+          {
+            "start": 18,
+            "end": 30,
+            "value": "liking place",
+            "entity": "fav_region"
+          }
+        ],
+        "text": "what is your most liking place? "
+      },
+      {
+        "intent": "ask_country",
+        "entities": [
+          {
+            "start": 18,
+            "end": 31,
+            "value": "favorite place",
+            "entity": "fav_region"
+          }
+        ],
+        "text": "what is your most favorite place? "
+      },
+      {
+        "intent": "ask_country",
+        "entities": [
+          {
+            "start": 6,
+            "end": 19,
+            "value": "place you like",
+            "entity": "fav_region"
+          }
+        ],
+        "text": "Which place you like the most? "
+      },
+      {
+        "intent": "ask_country",
+        "entities": [
+          {
+            "start": 18,
+            "end": 29,
+            "value": "liking site",
+            "entity": "fav_region"
+          }
+        ],
+        "text": "what is your most liking site? "
+      },
+      {
+        "intent": "ask_country",
+        "entities": [
+          {
+            "start": 6,
+            "end": 18,
+            "value": "area you like",
+            "entity": "fav_region"
+          }
+        ],
+        "text": "Which area you like the most? "
+      },
+      {
+        "intent": "ask_country",
+        "entities": [
+          {
+            "start": 22,
+            "end": 34,
+            "value": "like to visit",
+            "entity": "fav_region"
+          }
+        ],
+        "text": "Which site you always like to visit? "
+      },
+      {
+        "intent": "ask_country",
+        "entities": [
+          {
+            "start": 12,
+            "end": 29,
+            "value": "favorite locality",
+            "entity": "fav region"
+          }
+        ],
+        "text": "What's your favorite locality? "
+      },
+      {
+        "intent": "ask_fav_family",
+        "entities": [
+          {
+            "start": 5,
+            "end": 22,
+            "value": "favourite sibling",
+            "entity": "fav_sibling"
+          }
+        ],
+        "text": "your favourite sibling? "
+      },
+      {
+        "intent": "ask_fav_family",
+        "text": "with which sibling you are attached the most? "
+      },
+      {
+        "intent": "ask_fav_family",
+        "entities": [
+          {
+            "start": 5,
+            "end": 22,
+            "value": "favourite brother",
+            "entity": "fav_sibling"
+          }
+        ],
+        "text": "your favourite brother? "
+      },
+      {
+        "intent": "ask_fav_family",
+        "entities": [
+          {
+            "start": 5,
+            "end": 21,
+            "value": "favourite sister",
+            "entity": "fav_sibling"
+          }
+        ],
+        "text": "your favourite sister? "
+      },
+      {
+        "intent": "ask_fav_family",
+        "text": "with which brother or sister you are attached the most? "
+      },
+      {
+        "intent": "ask_fav_family",
+        "entities": [
+          {
+            "start": 15,
+            "end": 23,
+            "value": "offspring",
+            "entity": "childern"
+          }
+        ],
+        "text": "your favourite offspring of your parents? "
+      },
+      {
+        "intent": "ask_fav_family",
+        "entities": [
+          {
+            "start": 11,
+            "end": 19,
+            "value": "offspring",
+            "entity": "childern"
+          }
+        ],
+        "text": "with which offspring of your parents you are attached the most? "
+      },
+      {
+        "intent": "ask_city",
+        "entities": [
+          {
+            "start": 5,
+            "end": 19,
+            "value": "favourite city",
+            "entity": "fav_city"
+          }
+        ],
+        "text": "your favourite city? "
+      },
+      {
+        "intent": "ask_city",
+        "entities": [
+          {
+            "start": 6,
+            "end": 18,
+            "value": "city you like",
+            "entity": "fav_city"
+          }
+        ],
+        "text": "which city you like the most? "
+      },
+      {
+        "intent": "ask_city",
+        "text": "Which metropolis you like to visit the most? "
+      },
+      {
+        "intent": "ask_city",
+        "entities": [
+          {
+            "start": 10,
+            "end": 26,
+            "value": "loved metropolis",
+            "entity": "fav_city"
+          }
+        ],
+        "text": "your most loved metropolis? "
+      },
+      {
+        "intent": "ask_city",
+        "entities": [
+          {
+            "start": 10,
+            "end": 30,
+            "value": "favorite conurbation",
+            "entity": "fav_city"
+          }
+        ],
+        "text": "your most favorite conurbation? "
+      },
+      {
+        "intent": "ask_city",
+        "text": "Which conurbation you like to visit the most? "
+      },
+      {
+        "intent": "ask_story",
+        "entities": [
+          {
+            "start": 27,
+            "end": 32,
+            "value": "story",
+            "entity": "entertainment"
+          }
+        ],
+        "text": "your favorite entertaining story? "
+      },
+      {
+        "intent": "ask_story",
+        "entities": [
+          {
+            "start": 6,
+            "end": 10,
+            "value": "story",
+            "entity": "entertainment"
+          }
+        ],
+        "text": "which story like to hear most? "
+      },
+      {
+        "intent": "ask_story",
+        "entities": [
+          {
+            "start": 21,
+            "end": 25,
+            "value": "tale",
+            "entity": "entertainment"
+          }
+        ],
+        "text": "What's your favorite tale? "
+      },
+      {
+        "intent": "ask_story",
+        "entities": [
+          {
+            "start": 29,
+            "end": 33,
+            "value": "tale",
+            "entity": "entertainment"
+          }
+        ],
+        "text": "Whats your all time favorite tale? "
+      },
+      {
+        "intent": "ask_story",
+        "entities": [
+          {
+            "start": 22,
+            "end": 29,
+            "value": "anecdote",
+            "entity": "entertainment"
+          }
+        ],
+        "text": "Tell me your favorite anecdote "
+      },
+      {
+        "intent": "ask_story",
+        "entities": [
+          {
+            "start": 6,
+            "end": 13,
+            "value": "anecdote",
+            "entity": "entertainment"
+          }
+        ],
+        "text": "which anecdote like to hear most? "
+      },
+      {
+        "intent": "ask_hurt",
+        "entities": [
+          {
+            "start": 16,
+            "end": 20,
+            "value": "hurt",
+            "entity": "pain"
+          }
+        ],
+        "text": "Do you ever get hurt? "
+      },
+      {
+        "intent": "ask_hurt",
+        "entities": [
+          {
+            "start": 16,
+            "end": 23,
+            "value": "injured",
+            "entity": "pain"
+          }
+        ],
+        "text": "Do you ever get injured? "
+      },
+      {
+        "intent": "ask_hurt",
+        "entities": [
+          {
+            "start": 16,
+            "end": 22,
+            "value": "wounds",
+            "entity": "pain"
+          }
+        ],
+        "text": "Do you ever get wounds? "
+      },
+      {
+        "intent": "ask_hurt",
+        "entities": [
+          {
+            "start": 16,
+            "end": 22,
+            "value": "bruise",
+            "entity": "pain"
+          }
+        ],
+        "text": "Do you ever get bruise? "
+      },
+      {
+        "intent": "ask_hurt",
+        "entities": [
+          {
+            "start": 16,
+            "end": 20,
+            "value": "cuts",
+            "entity": "pain"
+          }
+        ],
+        "text": "Do you ever get cuts? "
+      },
+      {
+        "intent": "ask_hurt",
+        "entities": [
+          {
+            "start": 12,
+            "end": 20,
+            "value": "suffered",
+            "entity": "pain"
+          }
+        ],
+        "text": "Do you ever suffered? "
+      },
+      {
+        "intent": "ask_relationship_status",
+        "entities": [
+          {
+            "start": 13,
+            "end": 19,
+            "value": "marital status",
+            "entity": "relationship"
+          }
+        ],
+        "text": "what is your marital status? "
+      },
+      {
+        "intent": "ask_relationship_status",
+        "entities": [
+          {
+            "start": 13,
+            "end": 24,
+            "value": "relationship status",
+            "entity": "relationship"
+          }
+        ],
+        "text": "What is your relationship status? "
+      },
+      {
+        "intent": "ask_relationship_status",
+        "entities": [
+          {
+            "start": 13,
+            "end": 19,
+            "value": "nuptial status",
+            "entity": "relationship"
+          }
+        ],
+        "text": "What is your nuptial status? "
+      },
+      {
+        "intent": "ask_relationship_status",
+        "entities": [
+          {
+            "start": 13,
+            "end": 20,
+            "value": "conjugal status",
+            "entity": "relationship"
+          }
+        ],
+        "text": "What is your conjugal status? "
+      },
+      {
+        "intent": "ask_relationship_status",
+        "entities": [
+          {
+            "start": 13,
+            "end": 21,
+            "value": "connubial status",
+            "entity": "relationship"
+          }
+        ],
+        "text": "What is your connubial status? "
+      },
+      {
+        "intent": "ask_relationship_status",
+        "entities": [
+          {
+            "start": 13,
+            "end": 18,
+            "value": "wedded status",
+            "entity": "relationship"
+          }
+        ],
+        "text": "What is your wedded status? "
+      },
+      {
+        "intent": "ask_relationship_status",
+        "entities": [
+          {
+            "start": 9,
+            "end": 18,
+            "value": "boyfriends",
+            "entity": "relationship"
+          }
+        ],
+        "text": "how many boyfriends u have? "
+      },
+      {
+        "intent": "ask_relationship_status",
+        "entities": [
+          {
+            "start": 29,
+            "end": 41,
+            "value": "relationship",
+            "entity": "relationship"
+          }
+        ],
+        "text": "With how many boys you're in relationship? "
+      },
+      {
+        "intent": "ask_relationship_status",
+        "entities": [
+          {
+            "start": 9,
+            "end": 13,
+            "value": "loved ones",
+            "entity": "relationship"
+          }
+        ],
+        "text": "how many loved ones you have? "
+      },
+      {
+        "intent": "ask_relationship_status",
+        "entities": [
+          {
+            "start": 28,
+            "end": 40,
+            "value": "relationship",
+            "entity": "relationship"
+          }
+        ],
+        "text": "With how many men you're in relationship? "
+      },
+      {
+        "intent": "ask_relationship_status",
+        "entities": [
+          {
+            "start": 28,
+            "end": 39,
+            "value": "correlation",
+            "entity": "relationship"
+          }
+        ],
+        "text": "With how many men you're in correlation? "
+      },
+      {
+        "intent": "ask_relationship_status",
+        "entities": [
+          {
+            "start": 26,
+            "end": 36,
+            "value": "associated",
+            "entity": "relationship"
+          }
+        ],
+        "text": "With how many boys you're associated? "
+      },
+      {
+        "intent": "ask_inspiration",
+        "entities": [
+          {
+            "start": 12,
+            "end": 15,
+            "value": "role model",
+            "entity": "ideal"
+          }
+        ],
+        "text": "who is your role model? "
+      },
+      {
+        "intent": "ask_inspiration",
+        "entities": [
+          {
+            "start": 12,
+            "end": 23,
+            "value": "inspiration",
+            "entity": "ideal"
+          }
+        ],
+        "text": "who is your inspiration? "
+      },
+      {
+        "intent": "ask_inspiration",
+        "entities": [
+          {
+            "start": 12,
+            "end": 24,
+            "value": "motivational",
+            "entity": "ideal"
+          }
+        ],
+        "text": "who is your motivational? "
+      },
+      {
+        "intent": "ask_inspiration",
+        "entities": [
+          {
+            "start": 12,
+            "end": 17,
+            "value": "ideal",
+            "entity": "ideal"
+          }
+        ],
+        "text": "who is your ideal? "
+      },
+      {
+        "intent": "ask_inspiration",
+        "entities": [
+          {
+            "start": 12,
+            "end": 18,
+            "value": "mentor",
+            "entity": "ideal"
+          }
+        ],
+        "text": "who is your mentor? "
+      },
+      {
+        "intent": "ask_inspiration",
+        "entities": [
+          {
+            "start": 12,
+            "end": 19,
+            "value": "example",
+            "entity": "ideal"
+          }
+        ],
+        "text": "who is your example? "
+      },
+      {
+        "intent": "ask_baby",
+        "entities": [
+          {
+            "start": 9,
+            "end": 15,
+            "value": "infants",
+            "entity": "childern"
+          }
+        ],
+        "text": "how many infants you have? "
+      },
+      {
+        "intent": "ask_baby",
+        "entities": [
+          {
+            "start": 9,
+            "end": 18,
+            "value": "offsprings",
+            "entity": "childern"
+          }
+        ],
+        "text": "how many offsprings you have? "
+      },
+      {
+        "intent": "ask_baby",
+        "entities": [
+          {
+            "start": 9,
+            "end": 12,
+            "value": "kids",
+            "entity": "childern"
+          }
+        ],
+        "text": "how many kids you have? "
+      },
+      {
+        "intent": "ask_baby",
+        "entities": [
+          {
+            "start": 9,
+            "end": 16,
+            "value": "childern",
+            "entity": "childern"
+          }
+        ],
+        "text": "how many childern you have? "
+      },
+      {
+        "intent": "ask_baby",
+        "entities": [
+          {
+            "start": 9,
+            "end": 14,
+            "value": "babies",
+            "entity": "childern"
+          }
+        ],
+        "text": "how many babies you have? "
+      },
+      {
+        "intent": "ask_baby",
+        "entities": [
+          {
+            "start": 9,
+            "end": 16,
+            "value": "toddlers",
+            "entity": "childern"
+          }
+        ],
+        "text": "how many toddlers you have? "
+      },
+      {
+        "intent": "ask_addictive",
+        "text": "Do you take addictive products? "
+      },
+      {
+        "intent": "ask_addictive",
+        "text": "Do you take causing dependency products? "
+      },
+      {
+        "intent": "ask_addictive",
+        "text": "Do you take compelling products? "
+      },
+      {
+        "intent": "ask_addictive",
+        "text": "Do you take habit-forming products? "
+      },
+      {
+        "intent": "ask_addictive",
+        "text": "Do you take compulsive products? "
+      },
+      {
+        "intent": "ask_addictive",
+        "text": "Do you take moreish products? "
+      },
+      {
+        "intent": "ask_swim",
+        "entities": [
+          {
+            "start": 10,
+            "end": 18,
+            "value": "swimming",
+            "entity": "swimming"
+          }
+        ],
+        "text": "do u know swimming? "
+      },
+      {
+        "intent": "ask_swim",
+        "text": "do you know how to swim? "
+      },
+      {
+        "intent": "ask_swim",
+        "text": "Have you learned how to swim in the water? "
+      },
+      {
+        "intent": "ask_swim",
+        "text": "do you know floating in the water? "
+      },
+      {
+        "intent": "ask_swim",
+        "text": "Have you learned how to float in the water? "
+      },
+      {
+        "intent": "ask_swim",
+        "text": "do you know how to float in the water? "
+      },
+      {
+        "intent": "ask_goal",
+        "entities": [
+          {
+            "start": 13,
+            "end": 19,
+            "value": "target",
+            "entity": "goal"
+          }
+        ],
+        "text": "what is your target? "
+      },
+      {
+        "intent": "ask_goal",
+        "entities": [
+          {
+            "start": 13,
+            "end": 21,
+            "value": "ambition",
+            "entity": "goal"
+          }
+        ],
+        "text": "what is your ambition? "
+      },
+      {
+        "intent": "ask_goal",
+        "entities": [
+          {
+            "start": 13,
+            "end": 17,
+            "value": "goal",
+            "entity": "goal"
+          }
+        ],
+        "text": "what is your goal? "
+      },
+      {
+        "intent": "ask_goal",
+        "entities": [
+          {
+            "start": 13,
+            "end": 16,
+            "value": "aim",
+            "entity": "goal"
+          }
+        ],
+        "text": "what is your aim? "
+      },
+      {
+        "intent": "ask_goal",
+        "text": "what do you want to do in future? "
+      },
+      {
+        "intent": "ask_goal",
+        "text": "where do you see yourself in 10 years? "
+      },
+      {
+        "intent": "ask_worst_strategy",
+        "entities": [
+          {
+            "start": 17,
+            "end": 24,
+            "value": "strategy",
+            "entity": "action"
+          }
+        ],
+        "text": "What's the worst strategy you ever planned? "
+      },
+      {
+        "intent": "ask_worst_strategy",
+        "entities": [
+          {
+            "start": 20,
+            "end": 25,
+            "value": "scheme",
+            "entity": "action"
+          }
+        ],
+        "text": "What's the horrible scheme you ever did? "
+      },
+      {
+        "intent": "ask_worst_strategy",
+        "entities": [
+          {
+            "start": 15,
+            "end": 18,
+            "value": "plan",
+            "entity": "action"
+          }
+        ],
+        "text": "What's the bad plan you tried to follow? "
+      },
+      {
+        "intent": "ask_worst_strategy",
+        "entities": [
+          {
+            "start": 16,
+            "end": 19,
+            "value": "plan",
+            "entity": "action"
+          }
+        ],
+        "text": "What's the poor plan you ever decided to do? "
+      },
+      {
+        "intent": "ask_worst_strategy",
+        "text": "What's the terrible way you did? "
+      },
+      {
+        "intent": "ask_worst_strategy",
+        "text": "What's the wrong move you ever followed? "
+      },
+      {
+        "intent": "ask_attribute",
+        "text": "What are your weak points? "
+      },
+      {
+        "intent": "ask_attribute",
+        "text": "What are your flaw points? "
+      },
+      {
+        "intent": "ask_attribute",
+        "entities": [
+          {
+            "start": 14,
+            "end": 27,
+            "value": "imperfections",
+            "entity": "flaws"
+          }
+        ],
+        "text": "what are your imperfections? "
+      },
+      {
+        "intent": "ask_attribute",
+        "entities": [
+          {
+            "start": 14,
+            "end": 26,
+            "value": "shortcomings",
+            "entity": "flaws"
+          }
+        ],
+        "text": "what are your shortcomings? "
+      },
+      {
+        "intent": "ask_attribute",
+        "entities": [
+          {
+            "start": 14,
+            "end": 29,
+            "value": "vulnerabilities",
+            "entity": "flaws"
+          }
+        ],
+        "text": "what are your vulnerabilities? "
+      },
+      {
+        "intent": "ask_attribute",
+        "entities": [
+          {
+            "start": 14,
+            "end": 27,
+            "value": "instabilities",
+            "entity": "flaws"
+          }
+        ],
+        "text": "what are your instabilities? "
+      },
+      {
+        "intent": "ask_attribute",
+        "text": "what are your strong points? "
+      },
+      {
+        "intent": "ask_attribute",
+        "entities": [
+          {
+            "start": 14,
+            "end": 23,
+            "value": "abilities",
+            "entity": "strength"
+          }
+        ],
+        "text": "What are your abilities? "
+      },
+      {
+        "intent": "ask_attribute",
+        "entities": [
+          {
+            "start": 14,
+            "end": 25,
+            "value": "competences",
+            "entity": "strength"
+          }
+        ],
+        "text": "What are your competences? "
+      },
+      {
+        "intent": "ask_attribute",
+        "entities": [
+          {
+            "start": 14,
+            "end": 23,
+            "value": "strengths",
+            "entity": "strength"
+          }
+        ],
+        "text": "What are your strengths? "
+      },
+      {
+        "intent": "ask_attribute",
+        "entities": [
+          {
+            "start": 14,
+            "end": 27,
+            "value": "effectiveness",
+            "entity": "strength"
+          }
+        ],
+        "text": "What are your effectiveness? "
+      },
+      {
+        "intent": "ask_attribute",
+        "entities": [
+          {
+            "start": 14,
+            "end": 26,
+            "value": "efficiencies",
+            "entity": "strength"
+          }
+        ],
+        "text": "What are your efficiencies? "
+      },
+      {
+        "intent": "ask_quote",
+        "entities": [
+          {
+            "start": 14,
+            "end": 19,
+            "value": "quote",
+            "entity": "quotation"
+          }
+        ],
+        "text": "your favorite quote? "
+      },
+      {
+        "intent": "ask_quote",
+        "entities": [
+          {
+            "start": 6,
+            "end": 10,
+            "value": "quote",
+            "entity": "quotation"
+          }
+        ],
+        "text": "Which quote you like the most? "
+      },
+      {
+        "intent": "ask_quote",
+        "entities": [
+          {
+            "start": 22,
+            "end": 26,
+            "value": "line",
+            "entity": "quotation"
+          }
+        ],
+        "text": "what is your favorite line? "
+      },
+      {
+        "intent": "ask_quote",
+        "entities": [
+          {
+            "start": 24,
+            "end": 33,
+            "value": "quotation",
+            "entity": "quotation"
+          }
+        ],
+        "text": "What is your most loved quotation? "
+      },
+      {
+        "intent": "ask_quote",
+        "entities": [
+          {
+            "start": 17,
+            "end": 20,
+            "value": "line",
+            "entity": "quotation"
+          }
+        ],
+        "text": "Tell me the best line you ever heard or read? "
+      },
+      {
+        "intent": "ask_quote",
+        "entities": [
+          {
+            "start": 17,
+            "end": 24,
+            "value": "misquote",
+            "entity": "quotation"
+          }
+        ],
+        "text": "What is the best misquote you saw last time? "
+      },
+      {
+        "intent": "ask_sustenance",
+        "entities": [
+          {
+            "start": 22,
+            "end": 27,
+            "value": "drink",
+            "entity": "edible"
+          }
+        ],
+        "text": "what is your favorite drink? "
+      },
+      {
+        "intent": "ask_sustenance",
+        "entities": [
+          {
+            "start": 29,
+            "end": 37,
+            "value": "beverage",
+            "entity": "edible"
+          }
+        ],
+        "text": "I want to know your favorite beverage? "
+      },
+      {
+        "intent": "ask_sustenance",
+        "entities": [
+          {
+            "start": 13,
+            "end": 23,
+            "value": "refreshment",
+            "entity": "edible"
+          }
+        ],
+        "text": "which liquid refreshment you like the most? "
+      },
+      {
+        "intent": "ask_sustenance",
+        "entities": [
+          {
+            "start": 40,
+            "end": 44,
+            "value": "dram",
+            "entity": "edible"
+          }
+        ],
+        "text": "Would you like to tell me your favorite dram? "
+      },
+      {
+        "intent": "ask_sustenance",
+        "entities": [
+          {
+            "start": 16,
+            "end": 24,
+            "value": "nightcap",
+            "entity": "edible"
+          }
+        ],
+        "text": "Your most liked nightcap? "
+      },
+      {
+        "intent": "ask_sustenance",
+        "entities": [
+          {
+            "start": 15,
+            "end": 21,
+            "value": "bracer",
+            "entity": "edible"
+          }
+        ],
+        "text": "your favourite bracer? "
+      },
+      {
+        "intent": "ask_book",
+        "entities": [
+          {
+            "start": 12,
+            "end": 26,
+            "value": "favorite book",
+            "entity": "book"
+          }
+        ],
+        "text": "what is your favorite book? "
+      },
+      {
+        "intent": "ask_book",
+        "entities": [
+          {
+            "start": 6,
+            "end": 9,
+            "value": "book",
+            "entity": "book"
+          }
+        ],
+        "text": "which book you like most? "
+      },
+      {
+        "intent": "ask_book",
+        "entities": [
+          {
+            "start": 13,
+            "end": 27,
+            "value": "favortie novel",
+            "entity": "book"
+          }
+        ],
+        "text": "What is your favortie novel? "
+      },
+      {
+        "intent": "ask_book",
+        "entities": [
+          {
+            "start": 30,
+            "end": 35,
+            "value": "novel",
+            "entity": "book"
+          }
+        ],
+        "text": "What is your favortie fiction novel? "
+      },
+      {
+        "intent": "ask_book",
+        "entities": [
+          {
+            "start": 21,
+            "end": 26,
+            "value": "novels",
+            "entity": "book"
+          }
+        ],
+        "text": "What kind of fiction novels do you read? "
+      },
+      {
+        "intent": "ask_book",
+        "entities": [
+          {
+            "start": 13,
+            "end": 16,
+            "value": "book",
+            "entity": "book"
+          }
+        ],
+        "text": "What kind of book do you read? "
+      },
+      {
+        "intent": "ask_book",
+        "entities": [
+          {
+            "start": 34,
+            "end": 39,
+            "value": "novel",
+            "entity": "book"
+          }
+        ],
+        "text": "What is your favorite non-fiction novel? "
+      },
+      {
+        "intent": "ask_book",
+        "entities": [
+          {
+            "start": 25,
+            "end": 30,
+            "value": "novels",
+            "entity": "book"
+          }
+        ],
+        "text": "What kind of non-fiction novels do you read? "
+      },
+      {
+        "intent": "ask_hair",
+        "entities": [
+          {
+            "start": 10,
+            "end": 16,
+            "value": "haircut",
+            "entity": "appearance"
+          }
+        ],
+        "text": "What type haircut you like the most? "
+      },
+      {
+        "intent": "ask_hair",
+        "entities": [
+          {
+            "start": 14,
+            "end": 23,
+            "value": "hairstyle",
+            "entity": "appearance"
+          }
+        ],
+        "text": "Your favorite hairstyle? "
+      },
+      {
+        "intent": "ask_hair",
+        "text": "How do you want to style your hair all the time? "
+      },
+      {
+        "intent": "ask_hair",
+        "entities": [
+          {
+            "start": 13,
+            "end": 20,
+            "value": "coiffure",
+            "entity": "appearance"
+          }
+        ],
+        "text": "What type of coiffure you want to have? "
+      },
+      {
+        "intent": "ask_hair",
+        "entities": [
+          {
+            "start": 24,
+            "end": 30,
+            "value": "hairdo",
+            "entity": "appearance"
+          }
+        ],
+        "text": "what is your most liked hairdo? "
+      },
+      {
+        "intent": "ask_hair",
+        "entities": [
+          {
+            "start": 29,
+            "end": 36,
+            "value": "haircut",
+            "entity": "appearance"
+          }
+        ],
+        "text": "How would you like to have a haircut? "
+      },
+      {
+        "intent": "ask_dessert",
+        "entities": [
+          {
+            "start": 15,
+            "end": 23,
+            "value": "icecream",
+            "entity": "dessert"
+          }
+        ],
+        "text": "your favourite icecream? "
+      },
+      {
+        "intent": "ask_dessert",
+        "text": "Which kind of last course you like the most? "
+      },
+      {
+        "intent": "ask_dessert",
+        "entities": [
+          {
+            "start": 22,
+            "end": 29,
+            "value": "dessert",
+            "entity": "dessert"
+          }
+        ],
+        "text": "what is your favorite dessert? "
+      },
+      {
+        "intent": "ask_dessert",
+        "entities": [
+          {
+            "start": 24,
+            "end": 28,
+            "value": "sweet dish",
+            "entity": "dessert"
+          }
+        ],
+        "text": "What is your most loved sweet dish? "
+      },
+      {
+        "intent": "ask_dessert",
+        "entities": [
+          {
+            "start": 35,
+            "end": 48,
+            "value": "confectionery",
+            "entity": "dessert"
+          }
+        ],
+        "text": "I would like to know your favorite confectionery? "
+      },
+      {
+        "intent": "ask_dessert",
+        "entities": [
+          {
+            "start": 30,
+            "end": 37,
+            "value": "delight",
+            "entity": "dessert"
+          }
+        ],
+        "text": "Can you tell me your favorite delight? "
+      },
+      {
+        "intent": "ask_relationship_status",
+        "entities": [
+          {
+            "start": 9,
+            "end": 16,
+            "value": "husbands",
+            "entity": "relationship"
+          }
+        ],
+        "text": "how many husbands do you have? "
+      },
+      {
+        "intent": "ask_relationship_status",
+        "entities": [
+          {
+            "start": 4,
+            "end": 7,
+            "value": "man",
+            "entity": "relationship"
+          }
+        ],
+        "text": "How many man you have married to? "
+      },
+      {
+        "intent": "ask_relationship_status",
+        "entities": [
+          {
+            "start": 9,
+            "end": 15,
+            "value": "spouses",
+            "entity": "relationship"
+          }
+        ],
+        "text": "how many spouses do you have? "
+      },
+      {
+        "intent": "ask_relationship_status",
+        "text": "how many life partners do you have? "
+      },
+      {
+        "intent": "ask_lead",
+        "text": "Who supervises you? "
+      },
+      {
+        "intent": "ask_lead",
+        "entities": [
+          {
+            "start": 11,
+            "end": 15,
+            "value": "boss",
+            "entity": "mentor"
+          }
+        ],
+        "text": "You have a boss? "
+      },
+      {
+        "intent": "ask_lead",
+        "entities": [
+          {
+            "start": 11,
+            "end": 17,
+            "value": "leader",
+            "entity": "mentor"
+          }
+        ],
+        "text": "Who's your leader? "
+      },
+      {
+        "intent": "ask_lead",
+        "entities": [
+          {
+            "start": 11,
+            "end": 21,
+            "value": "supervisor",
+            "entity": "mentor"
+          }
+        ],
+        "text": "Who's your supervisor? "
+      },
+      {
+        "intent": "ask_lead",
+        "entities": [
+          {
+            "start": 11,
+            "end": 18,
+            "value": "manager",
+            "entity": "mentor"
+          }
+        ],
+        "text": "Who's your manager? "
+      },
+      {
+        "intent": "ask_lead",
+        "entities": [
+          {
+            "start": 11,
+            "end": 19,
+            "value": "director",
+            "entity": "mentor"
+          }
+        ],
+        "text": "Who's your director? "
+      },
+      {
+        "intent": "ask_lead",
+        "entities": [
+          {
+            "start": 11,
+            "end": 15,
+            "value": "boss",
+            "entity": "mentor"
+          }
+        ],
+        "text": "Who's your boss? "
+      },
+      {
+        "intent": "ask_lead",
+        "entities": [
+          {
+            "start": 6,
+            "end": 14,
+            "value": "incharge",
+            "entity": "mentor"
+          }
+        ],
+        "text": "Who's incharge? "
+      },
+      {
+        "intent": "ask_lead",
+        "entities": [
+          {
+            "start": 6,
+            "end": 13,
+            "value": "incharge",
+            "entity": "mentor"
+          }
+        ],
+        "text": "Who's incharge of you? "
+      },
+      {
+        "intent": "ask_lead",
+        "text": "Whom do you serve? "
+      },
+      {
+        "intent": "ask_lead",
+        "entities": [
+          {
+            "start": 12,
+            "end": 18,
+            "value": "master",
+            "entity": "mentor"
+          }
+        ],
+        "text": "Who is your master? "
+      },
+      {
+        "intent": "ask_life_stage",
+        "entities": [
+          {
+            "start": 16,
+            "end": 21,
+            "value": "teens",
+            "entity": "age"
+          }
+        ],
+        "text": "Are you in your teens? "
+      },
+      {
+        "intent": "ask_life_stage",
+        "entities": [
+          {
+            "start": 11,
+            "end": 16,
+            "value": "adult",
+            "entity": "age"
+          }
+        ],
+        "text": "Are you an adult? "
+      },
+      {
+        "intent": "ask_life_stage",
+        "entities": [
+          {
+            "start": 10,
+            "end": 18,
+            "value": "teenager",
+            "entity": "age"
+          }
+        ],
+        "text": "Are you a teenager? "
+      },
+      {
+        "intent": "ask_life_stage",
+        "entities": [
+          {
+            "start": 10,
+            "end": 16,
+            "value": "senior",
+            "entity": "age"
+          }
+        ],
+        "text": "Are you a senior? "
+      },
+      {
+        "intent": "ask_life_stage",
+        "entities": [
+          {
+            "start": 10,
+            "end": 13,
+            "value": "kid",
+            "entity": "age"
+          }
+        ],
+        "text": "Are you a kid? "
+      },
+      {
+        "intent": "ask_life_stage",
+        "entities": [
+          {
+            "start": 10,
+            "end": 17,
+            "value": "grownup",
+            "entity": "age"
+          }
+        ],
+        "text": "Are you a grownup? "
+      },
+      {
+        "intent": "ask_life_stage",
+        "entities": [
+          {
+            "start": 10,
+            "end": 14,
+            "value": "baby",
+            "entity": "age"
+          }
+        ],
+        "text": "Are you a baby? "
+      },
+      {
+        "intent": "ask_life_stage",
+        "entities": [
+          {
+            "start": 8,
+            "end": 13,
+            "value": "young",
+            "entity": "age"
+          }
+        ],
+        "text": "Are you young? "
+      },
+      {
+        "intent": "ask_life_stage",
+        "entities": [
+          {
+            "start": 8,
+            "end": 15,
+            "value": "retired",
+            "entity": "age"
+          }
+        ],
+        "text": "are you retired? "
+      },
+      {
+        "intent": "ask_life_stage",
+        "entities": [
+          {
+            "start": 8,
+            "end": 11,
+            "value": "old",
+            "entity": "age"
+          }
+        ],
+        "text": "are you old? "
+      },
+      {
+        "intent": "ask_glasses",
+        "entities": [
+          {
+            "start": 7,
+            "end": 14,
+            "value": "glasses",
+            "entity": "eyesight"
+          }
+        ],
+        "text": "u wear glasses? "
+      },
+      {
+        "intent": "ask_glasses",
+        "entities": [
+          {
+            "start": 12,
+            "end": 22,
+            "value": "spectacles",
+            "entity": "eyesight"
+          }
+        ],
+        "text": "do you wear spectacles? "
+      },
+      {
+        "intent": "ask_glasses",
+        "entities": [
+          {
+            "start": 11,
+            "end": 17,
+            "value": "eyewear",
+            "entity": "eyesight"
+          }
+        ],
+        "text": "do you put eyewear on eyes while working ? "
+      },
+      {
+        "intent": "ask_glasses",
+        "entities": [
+          {
+            "start": 16,
+            "end": 21,
+            "value": "specs",
+            "entity": "eyesight"
+          }
+        ],
+        "text": "Do like wearing specs? "
+      },
+      {
+        "intent": "ask_glasses",
+        "entities": [
+          {
+            "start": 28,
+            "end": 38,
+            "value": "eyeglasses",
+            "entity": "eyesight"
+          }
+        ],
+        "text": "Do feel comfortable putting eyeglasses? "
+      },
+      {
+        "intent": "ask_glasses",
+        "text": "are vision-glasses good for you? "
+      },
+      {
+        "intent": "ask_breathe",
+        "entities": [
+          {
+            "start": 8,
+            "end": 15,
+            "value": "breathe",
+            "entity": "life"
+          }
+        ],
+        "text": "Can you breathe? "
+      },
+      {
+        "intent": "ask_breathe",
+        "entities": [
+          {
+            "start": 7,
+            "end": 14,
+            "value": "breathe",
+            "entity": "life"
+          }
+        ],
+        "text": "Do you breathe? "
+      },
+      {
+        "intent": "ask_breathe",
+        "text": "Do you ever breathe? "
+      },
+      {
+        "intent": "ask_breathe",
+        "text": "Do you inhale and exhale? "
+      },
+      {
+        "intent": "ask_breathe",
+        "text": "Do you respire? "
+      },
+      {
+        "intent": "ask_breathe",
+        "text": "Do you pant sometimes? "
+      },
+      {
+        "intent": "ask_masticate",
+        "entities": [
+          {
+            "start": 8,
+            "end": 17,
+            "value": "masticate",
+            "entity": "eating"
+          }
+        ],
+        "text": "can you masticate? "
+      },
+      {
+        "intent": "ask_masticate",
+        "entities": [
+          {
+            "start": 7,
+            "end": 16,
+            "value": "masticate",
+            "entity": "eating"
+          }
+        ],
+        "text": "do you masticate? "
+      },
+      {
+        "intent": "ask_masticate",
+        "text": "Don't you ever masticate? "
+      },
+      {
+        "intent": "ask_masticate",
+        "text": "Do you chew? "
+      },
+      {
+        "intent": "ask_masticate",
+        "text": "Do you manducate? "
+      },
+      {
+        "intent": "ask_masticate",
+        "text": "Do you munch? "
+      },
+      {
+        "intent": "ask_burp",
+        "text": "Can you burp? "
+      },
+      {
+        "intent": "ask_burp",
+        "text": "Do you burp? "
+      },
+      {
+        "intent": "ask_burp",
+        "text": "Do you ever belch? "
+      },
+      {
+        "intent": "ask_burp",
+        "text": "Do you eruct? "
+      },
+      {
+        "intent": "ask_burp",
+        "text": "Don't you gurk? "
+      },
+      {
+        "intent": "ask_burp",
+        "text": "can you eruct? "
+      },
+      {
+        "intent": "ask_crawl",
+        "entities": [
+          {
+            "start": 8,
+            "end": 13,
+            "value": "crawl",
+            "entity": "motion"
+          }
+        ],
+        "text": "Can you crawl? "
+      },
+      {
+        "intent": "ask_crawl",
+        "entities": [
+          {
+            "start": 7,
+            "end": 12,
+            "value": "crawl",
+            "entity": "motion"
+          }
+        ],
+        "text": "Do you crawl? "
+      },
+      {
+        "intent": "ask_crawl",
+        "entities": [
+          {
+            "start": 8,
+            "end": 13,
+            "value": "creep",
+            "entity": "motion"
+          }
+        ],
+        "text": "Can you creep? "
+      },
+      {
+        "intent": "ask_crawl",
+        "entities": [
+          {
+            "start": 12,
+            "end": 19,
+            "value": "creep",
+            "entity": "motion"
+          }
+        ],
+        "text": "Do you ever creeped? "
+      },
+      {
+        "intent": "ask_crawl",
+        "entities": [
+          {
+            "start": 7,
+            "end": 11,
+            "value": "drag",
+            "entity": "motion"
+          }
+        ],
+        "text": "Do you drag? "
+      },
+      {
+        "intent": "ask_crawl",
+        "entities": [
+          {
+            "start": 8,
+            "end": 12,
+            "value": "drag",
+            "entity": "motion"
+          }
+        ],
+        "text": "Can you drag? "
+      },
+      {
+        "intent": "ask_cry",
+        "entities": [
+          {
+            "start": 8,
+            "end": 11,
+            "value": "cry",
+            "entity": "emotion"
+          }
+        ],
+        "text": "Can you cry? "
+      },
+      {
+        "intent": "ask_cry",
+        "entities": [
+          {
+            "start": 7,
+            "end": 10,
+            "value": "cry",
+            "entity": "emotion"
+          }
+        ],
+        "text": "Do you cry? "
+      },
+      {
+        "intent": "ask_cry",
+        "entities": [
+          {
+            "start": 7,
+            "end": 11,
+            "value": "weep",
+            "entity": "emotion"
+          }
+        ],
+        "text": "Do you weep? "
+      },
+      {
+        "intent": "ask_cry",
+        "entities": [
+          {
+            "start": 15,
+            "end": 21,
+            "value": "weeped",
+            "entity": "emotion"
+          }
+        ],
+        "text": "Don't you ever weeped? "
+      },
+      {
+        "intent": "ask_cry",
+        "entities": [
+          {
+            "start": 7,
+            "end": 11,
+            "value": "shout",
+            "entity": "emotion"
+          }
+        ],
+        "text": "Do you shout sometimes? "
+      },
+      {
+        "intent": "ask_cry",
+        "entities": [
+          {
+            "start": 7,
+            "end": 11,
+            "value": "shout",
+            "entity": "emotion"
+          }
+        ],
+        "text": "Do you shout when you're upset? "
+      },
+      {
+        "intent": "ask_dream",
+        "entities": [
+          {
+            "start": 8,
+            "end": 13,
+            "value": "dream",
+            "entity": "imagination"
+          }
+        ],
+        "text": "Can you dream? "
+      },
+      {
+        "intent": "ask_dream",
+        "entities": [
+          {
+            "start": 7,
+            "end": 12,
+            "value": "dream",
+            "entity": "imagination"
+          }
+        ],
+        "text": "Do you dream? "
+      },
+      {
+        "intent": "ask_dream",
+        "entities": [
+          {
+            "start": 7,
+            "end": 15,
+            "value": "fantasize",
+            "entity": "imagination"
+          }
+        ],
+        "text": "Do you fantasize about things? "
+      },
+      {
+        "intent": "ask_dream",
+        "entities": [
+          {
+            "start": 15,
+            "end": 22,
+            "value": "fantasy",
+            "entity": "imagination"
+          }
+        ],
+        "text": "Do you go into fantasy? "
+      },
+      {
+        "intent": "ask_dream",
+        "entities": [
+          {
+            "start": 7,
+            "end": 11,
+            "value": "think",
+            "entity": "imagination"
+          }
+        ],
+        "text": "Do you think sometimes? "
+      },
+      {
+        "intent": "ask_dream",
+        "entities": [
+          {
+            "start": 8,
+            "end": 13,
+            "value": "think",
+            "entity": "imagination"
+          }
+        ],
+        "text": "Can you think? "
+      },
+      {
+        "intent": "ask_eat",
+        "entities": [
+          {
+            "start": 8,
+            "end": 11,
+            "value": "eat",
+            "entity": "consuming"
+          }
+        ],
+        "text": "Can you eat? "
+      },
+      {
+        "intent": "ask_eat",
+        "entities": [
+          {
+            "start": 7,
+            "end": 10,
+            "value": "eat",
+            "entity": "consuming"
+          }
+        ],
+        "text": "Do you eat? "
+      },
+      {
+        "intent": "ask_eat",
+        "entities": [
+          {
+            "start": 7,
+            "end": 13,
+            "value": "devour",
+            "entity": "consuming"
+          }
+        ],
+        "text": "Do you devour? "
+      },
+      {
+        "intent": "ask_eat",
+        "entities": [
+          {
+            "start": 8,
+            "end": 14,
+            "value": "devour",
+            "entity": "consuming"
+          }
+        ],
+        "text": "Can you devour? "
+      },
+      {
+        "intent": "ask_eat",
+        "entities": [
+          {
+            "start": 15,
+            "end": 19,
+            "value": "food",
+            "entity": "edibles"
+          }
+        ],
+        "text": "Do you consume food? "
+      },
+      {
+        "intent": "ask_eat",
+        "entities": [
+          {
+            "start": 15,
+            "end": 22,
+            "value": "edibles",
+            "entity": "edibles"
+          }
+        ],
+        "text": "Can you intake edibles? "
+      },
+      {
+        "intent": "ask_fart",
+        "text": "Can you fart? "
+      },
+      {
+        "intent": "ask_fart",
+        "text": "Do you fart? "
+      },
+      {
+        "intent": "ask_fart",
+        "text": "Do know how to fart? "
+      },
+      {
+        "intent": "ask_fart",
+        "text": "Can you emit air? "
+      },
+      {
+        "intent": "ask_fart",
+        "text": "Do you release gas? "
+      },
+      {
+        "intent": "ask_fart",
+        "text": "Do you know how to discharge gas? "
+      },
+      {
+        "intent": "ask_tired",
+        "text": "Can you get tired? "
+      },
+      {
+        "intent": "ask_tired",
+        "text": "Do you get worn out? "
+      },
+      {
+        "intent": "ask_tired",
+        "text": "Do you get tired after working day long? "
+      },
+      {
+        "intent": "ask_tired",
+        "text": "Do you exhaust after working? "
+      },
+      {
+        "intent": "ask_tired",
+        "text": "Do you get wearied? "
+      },
+      {
+        "intent": "ask_tired",
+        "text": "Do you get drained? "
+      },
+      {
+        "intent": "ask_yawn",
+        "text": "Can you yawn? "
+      },
+      {
+        "intent": "ask_yawn",
+        "text": "Do you yawn? "
+      },
+      {
+        "intent": "ask_yawn",
+        "text": "Do you ever yawn? "
+      },
+      {
+        "intent": "ask_yawn",
+        "text": "Do you gapping? "
+      },
+      {
+        "intent": "ask_yawn",
+        "text": "Do you ever gapped? "
+      },
+      {
+        "intent": "ask_yawn",
+        "text": "Can you gape? "
+      },
+      {
+        "intent": "ask_pee",
+        "text": "Do you pee? "
+      },
+      {
+        "intent": "ask_pee",
+        "text": "Do you ever pee? "
+      },
+      {
+        "intent": "ask_pee",
+        "text": "Can you tinkle? "
+      },
+      {
+        "intent": "ask_pee",
+        "text": "Do you micturate? "
+      },
+      {
+        "intent": "ask_pee",
+        "text": "Do you urinate? "
+      },
+      {
+        "intent": "ask_pee",
+        "text": "Do you take a leak? "
+      },
+      {
+        "intent": "ask_poop",
+        "text": "Can you poop? "
+      },
+      {
+        "intent": "ask_poop",
+        "text": "do you poop? "
+      },
+      {
+        "intent": "ask_poop",
+        "text": "Do you ever excrete? "
+      },
+      {
+        "intent": "ask_poop",
+        "text": "Do you discharge faeces? "
+      },
+      {
+        "intent": "ask_poop",
+        "text": "Do you go for dung? "
+      },
+      {
+        "intent": "ask_poop",
+        "text": "Do you excrete? "
+      },
+      {
+        "intent": "ask_sneeze",
+        "text": "Can you sneeze? "
+      },
+      {
+        "intent": "ask_sneeze",
+        "text": "Do you sneeze? "
+      },
+      {
+        "intent": "ask_sneeze",
+        "text": "Do you ever sneeze? "
+      },
+      {
+        "intent": "ask_sneeze",
+        "text": "Can you sniffle? "
+      },
+      {
+        "intent": "ask_sneeze",
+        "text": "Do you sniffle? "
+      },
+      {
+        "intent": "ask_sneeze",
+        "text": "Do you ever sniffle? "
+      },
+      {
+        "intent": "ask_sweat",
+        "text": "Can you sweat? "
+      },
+      {
+        "intent": "ask_sweat",
+        "text": "Do you ever sweat? "
+      },
+      {
+        "intent": "ask_sweat",
+        "text": "Do you sweat? "
+      },
+      {
+        "intent": "ask_sweat",
+        "text": "Do you secrete? "
+      },
+      {
+        "intent": "ask_sweat",
+        "text": "Do you perspire? "
+      },
+      {
+        "intent": "ask_sweat",
+        "text": "Can you perspire? "
+      },
+      {
+        "intent": "ask_vomit",
+        "text": "Can you throw up? "
+      },
+      {
+        "intent": "ask_vomit",
+        "text": "Do you throw up? "
+      },
+      {
+        "intent": "ask_vomit",
+        "text": "Do you ever puke? "
+      },
+      {
+        "intent": "ask_vomit",
+        "text": "Can you retch? "
+      },
+      {
+        "intent": "ask_vomit",
+        "text": "Do you vomit? "
+      },
+      {
+        "intent": "ask_vomit",
+        "text": "Do you puke? "
+      },
+      {
+        "intent": "ask_vomit",
+        "text": "Do you ever vomit? "
+      },
+      {
+        "intent": "ask_skin",
+        "text": "Do you have skin? "
+      },
+      {
+        "intent": "ask_skin",
+        "text": "Do you have dermis? "
+      },
+      {
+        "intent": "ask_skin",
+        "text": "Do you have epidermis? "
+      },
+      {
+        "intent": "ask_skin",
+        "text": "Do you have cuticles? "
+      },
+      {
+        "intent": "ask_skin",
+        "text": "Do you have cutis? "
+      },
+      {
+        "intent": "ask_skin",
+        "text": "Do you have integument? "
+      },
+      {
+        "intent": "ask_mouth",
+        "text": "Do you have teeth? "
+      },
+      {
+        "intent": "ask_mouth",
+        "text": "Do you have denticles? "
+      },
+      {
+        "intent": "ask_mouth",
+        "text": "Do you have mouth? "
+      },
+      {
+        "intent": "ask_mouth",
+        "text": "Do you have lips? "
+      },
+      {
+        "intent": "ask_mouth",
+        "text": "Do you have jaws? "
+      },
+      {
+        "intent": "ask_mouth",
+        "text": "Do you have tongue? "
+      },
+      {
+        "intent": "ask_legs",
+        "text": "Do you have legs? "
+      },
+      {
+        "intent": "ask_legs",
+        "text": "Do you have limbs? "
+      },
+      {
+        "intent": "ask_legs",
+        "text": "Do you have toes? "
+      },
+      {
+        "intent": "ask_legs",
+        "text": "Do you have tip of a shoe? "
+      },
+      {
+        "intent": "ask_legs",
+        "text": "Do you have feet? "
+      },
+      {
+        "intent": "ask_legs",
+        "text": "Do you have lower part of body? "
+      },
+      {
+        "intent": "ask_head",
+        "text": "Do you have hair? "
+      },
+      {
+        "intent": "ask_head",
+        "text": "Do you have mane? "
+      },
+      {
+        "intent": "ask_head",
+        "text": "Do you have face? "
+      },
+      {
+        "intent": "ask_head",
+        "text": "Do you have head? "
+      },
+      {
+        "intent": "ask_head",
+        "text": "Do you have skull? "
+      },
+      {
+        "intent": "ask_head",
+        "text": "Do you have brain? "
+      },
+      {
+        "intent": "ask_sleep",
+        "text": "Don't you ever sleep? "
+      },
+      {
+        "intent": "ask_sleep",
+        "text": "Do you sleep? "
+      },
+      {
+        "intent": "ask_sleep",
+        "text": "Do you take rest after a long day? "
+      },
+      {
+        "intent": "ask_sleep",
+        "text": "Do you nap in noon? "
+      },
+      {
+        "intent": "ask_sleep",
+        "text": "Can you take nap? "
+      },
+      {
+        "intent": "ask_sleep",
+        "text": "Do you drowse? "
+      },
+      {
+        "intent": "ask_stomach",
+        "text": "Do you have a stomach? "
+      },
+      {
+        "intent": "ask_stomach",
+        "text": "Do you have abdomen? "
+      },
+      {
+        "intent": "ask_stomach",
+        "text": "Do you have tummy? "
+      },
+      {
+        "intent": "ask_stomach",
+        "text": "Do you have intestines? "
+      },
+      {
+        "intent": "ask_stomach",
+        "text": "Do you have guts? "
+      },
+      {
+        "intent": "ask_stomach",
+        "text": "Do you have bowels? "
+      },
+      {
+        "intent": "ask_walk",
+        "text": "Do you ever walk? "
+      },
+      {
+        "intent": "ask_walk",
+        "text": "Can you walk? "
+      },
+      {
+        "intent": "ask_walk",
+        "text": "Can you stroll? "
+      },
+      {
+        "intent": "ask_walk",
+        "text": "do you stroll? "
+      },
+      {
+        "intent": "ask_walk",
+        "text": "Do you saunter? "
+      },
+      {
+        "intent": "ask_walk",
+        "text": "Can you saunter? "
+      },
+      {
+        "intent": "ask_acnes",
+        "text": "Do you get zits? "
+      },
+      {
+        "intent": "ask_acnes",
+        "text": "Do you have acnes? "
+      },
+      {
+        "intent": "ask_acnes",
+        "text": "Do you have pimples? "
+      },
+      {
+        "intent": "ask_acnes",
+        "text": "Do you have blackheads? "
+      },
+      {
+        "intent": "ask_acnes",
+        "text": "Do you have whiteheads? "
+      },
+      {
+        "intent": "ask_acnes",
+        "text": "Do you get pustules? "
+      },
+      {
+        "intent": "ask_arms",
+        "text": "Do you have arms? "
+      },
+      {
+        "intent": "ask_arms",
+        "text": "Do you have forelimbs? "
+      },
+      {
+        "intent": "ask_arms",
+        "text": "Do have hands? "
+      },
+      {
+        "intent": "ask_arms",
+        "text": "Do you have fingers? "
+      },
+      {
+        "intent": "ask_arms",
+        "text": "Do you have fingernails? "
+      },
+      {
+        "intent": "ask_arms",
+        "text": "Do you have nails on fingers? "
+      },
+      {
+        "intent": "ask_eyes",
+        "text": "Do you have eyes? "
+      },
+      {
+        "intent": "ask_eyes",
+        "text": "Do you have eyeballs? "
+      },
+      {
+        "intent": "ask_eyes",
+        "text": "Do you have eyelashes? "
+      },
+      {
+        "intent": "ask_eyes",
+        "text": "Do you have eye lens? "
+      },
+      {
+        "intent": "ask_eyes",
+        "text": "Do you have organ of sight? "
+      },
+      {
+        "intent": "ask_eyes",
+        "text": "Do you have peeper? "
+      }
+    ],
+    "regex_features": [
+      {
+        "name": "greet",
+        "pattern": "hey[^\\s]*"
+      },
+      {
+        "name": "zipcode",
+        "pattern": "[0-9]{5}"
+      }
+    ],
+    "lookup_tables": [],
+    "entity_synonyms": [
+      {
+        "value": "chinese",
+        "synonyms": [
+          "Chinese",
+          "Chines",
+          "chines"
+        ]
+      },
+      {
+        "value": "vegetarian",
+        "synonyms": [
+          "veggie",
+          "vegg"
+        ]
+      }
+    ]
+  }
+}
