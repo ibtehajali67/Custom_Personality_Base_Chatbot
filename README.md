@@ -1,6 +1,6 @@
 # ai
 For Git clone  
-git clone -b ibtehaj https://github.com/NOBORDERZdev/ai.git  
+git clone https://github.com/ibtehajali67/Custom_Personality_Base_Chatbot.git  
 # 
 ### RUN  
 Download model.zip from drive link (https://drive.google.com/file/d/1CGBICH8_T8OGsdJD-JJraVQTAJPnt4Oq/view?usp=sharing) and unzip in into data folder  
